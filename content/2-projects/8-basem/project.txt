@@ -1,0 +1,58 @@
+Title: basem
+
+----
+
+Disciplines: design
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/basem/basem-logo.png
+
+----
+
+Involvement: 100,20,20,20,30,80
+
+----
+
+Ratio1: 300
+
+----
+
+Ratio2: 700
+
+----
+
+Ownership1: 400
+
+----
+
+Ownership2: 600
+
+----
+
+Text: The British Association of Sport Medicine is a the association for sport medical practitioners. With closer ties to medicine science than sport science, the organisation wanted to convey the idea of assurance, liveliness and accessibility. Taking the Union flag as inspiration the websites primary colour palette is red white and blue.
+
+Primarily as the designer on the project I also wanted to give BASEM plenty of space to feature content be it the multi-panel banner on the homepage or animated section homepages and cms editable buttons/call to actions.
+
+----
+
+Work: <div class="col-md-12" id="designs">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/100-BASEM-Homepage.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/103-BASEM-Subpage.jpg"/>
+					</div>
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/108-BASEM-EventsListings.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/125-BASEM-BASEMtoday-listings.jpg"/>
+					</div>
+				</div>
+			</div>

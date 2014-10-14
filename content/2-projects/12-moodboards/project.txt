@@ -1,0 +1,70 @@
+Title: moodboards
+
+----
+
+Disciplines: design
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/moodboards/moodboard-icon.png
+
+----
+
+Involvement: 100,30,30,0,100,50
+
+----
+
+Ratio1: 0
+
+----
+
+Ratio2: 1000
+
+----
+
+Ownership1: 300
+
+----
+
+Ownership2: 200
+
+----
+
+Text: Sometimes to sell an idea you have to show the client what you are thinking. I introduced moodboards to my current office, which are basically a tasting menu of styles, colours, imagery and other ideas that we envisage. 
+
+I often prepare several moodboards so the client has options, Usually taking a single day they are a cheap and effective way of selling an idea and letting the client make design decisions on a macro scale. These are a few of my favourite moodboards.
+
+----
+
+Work: <div class="col-md-12" id="designs">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/100_LIFE-Moodboard-v2.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/Moodboard-1.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/Moodboard-2.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/Moodboard-11.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/Moodboard-21.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/Moodboard-31.jpg"/>
+					</div>
+				</div>
+			</div>

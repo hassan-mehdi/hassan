@@ -1,0 +1,13 @@
+{
+	"files": [
+		 {
+		    "type":"VIDEO",
+		    "sources": {
+		      "h264":{
+		        "source":"assets/video/bg.mp4",
+		        "size":20300000
+		      }
+		      }
+		    }
+	]
+}

@@ -1,0 +1,55 @@
+Title: bhhpa
+
+----
+
+Disciplines: design
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/bhhpa/bhhpa-logo.png
+
+----
+
+Involvement: 100,50,50,10,90,10
+
+----
+
+Ratio1: 300
+
+----
+
+Ratio2: 700
+
+----
+
+Ownership1: 300
+
+----
+
+Ownership2: 700
+
+----
+
+Text: The British Holidays & Home Parks Association (BHHPA) is a fast growing membership that is producing a lot of documentation, journals and other publications. Previously there had been a simple site with a list of links to download documents. When appointed, we designed a fully searchable library system with login security, elastic search, favouriting options and also a pdf previewer (see before you download). 
+
+As the design in the project I wanted to make something that reflected the large vistas and inspiring views the organisation monitors over. As a result each page has a banner of the British Landscape.
+
+----
+
+Work: <div class="col-md-12" id="designs">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/_100-bhhpa-homepage5-1.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/100-bhhpa-homepage5-4.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/100-bhhpa-homepage5-3.jpg"/>
+					</div>
+				</div>
+			</div>

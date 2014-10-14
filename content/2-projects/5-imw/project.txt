@@ -1,0 +1,50 @@
+Title: imw
+
+----
+
+Disciplines: Design & Frontend
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/imw/imw-logo.png
+
+----
+
+Involvement: 100,90,90,80,90,60
+
+----
+
+Ratio1: 600
+
+----
+
+Ratio2: 400
+
+----
+
+Ownership1: 800
+
+----
+
+Ownership2: 100
+
+----
+
+Text: The Institute of Masters of Wine is an Internationally around wine master education/membership organisation. A highly prestigious organisation The IMW's website needed to reflect this whilst still being a functional online service.
+
+I decided to use strong flat colours coupled with a simple san-serif and aspiration imagery to create an elegant and versatile site.
+
+----
+
+Work: <div class="col-md-12" id="designs">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/100_IMW-homepage-v2.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/101_IMW-about-us.jpg"/>
+					</div>
+				</div>
+			</div>

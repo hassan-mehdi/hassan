@@ -1,0 +1,169 @@
+@import url('../lessGlobals/colour.less');
+@import url("../lessGlobals/font.less");
+@import url("../lessGlobals/mixins.less");
+
+body{
+	background: @darkblue;
+}
+
+#bgvideo{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+#preloadstats{
+	position: absolute;
+	font-size: 10em;
+	width: 100%;
+	text-align: center;
+	top: 30%;
+}
+
+#logo.homeLogo{
+	background: url(../img/logo.png) no-repeat center center;
+	width: 100%;
+	height: 97px;
+	display: inline-block;
+	opacity: 0;
+	cursor: pointer;
+	margin: 0;
+
+	.keyframeAnimation(logohome);
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes logohome {
+	from {
+		margin-top: -100px;
+		opacity: 0;
+	}
+	to {
+		margin-top: 0;
+		opacity: 1;
+	}
+}
+
+/* Standard syntax */
+@keyframes logohome {
+	from {
+		margin-top: -100px;
+		opacity: 0;
+	}
+	to {
+		margin-top: 0;
+		opacity: 1;
+	}
+}
+
+#splash{
+	display: none;
+	width: 100%;
+	cursor: pointer;
+	padding-top: 240px;
+	margin: 0;
+
+	hr{
+		border-top: 1px dotted @bordergrey1;
+		width: 50%;
+	}
+
+	h1{
+		.h1(@white, 3em, 300);
+		letter-spacing: 10px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	h2{
+		.h1(@white, 2em, 300);
+		text-align: center;
+	}
+
+	#enter-arrow{
+		background: url("../img/big-arrow-white-down.png") no-repeat center center;
+		width: 100%;
+		height: 33px;
+		margin-top: 40px;
+		.animate;
+	}
+
+	.col-md-12:hover{
+		.animate(1s);
+		opacity: 0.7;
+		padding-top: 20px;
+
+		#enter-arrow{
+			margin-top: 60px;
+			opacity: 0.3;
+		}
+	}
+}
+
+#home-menu{
+	opacity: 0;
+	background-color: @darkblue;
+	.animate(0.5s);
+
+	&.active{
+		opacity: 1;
+	}
+
+	.option{
+		background-color: @darkblue;
+		width: 33.333%;
+		border-left: 1px solid @midblue;
+		height: 100%;
+		float: left;
+		display: inline-block;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		text-align: center;
+		padding-top: 5%;
+		.animate;
+
+		&:first-child{
+			border: none;
+		}
+
+		.menu-svg{
+			opacity: 1;
+			.animate;
+		}
+
+		a{
+			display: inline-block;
+			width: 100%;
+			opacity: 0.5;
+			.animate(0.5s);
+
+			&:hover {
+				opacity: 1;
+				& .menu-svg{
+					-webkit-transform: rotatey(180deg); /* Chrome, Safari, Opera */
+					transform: rotatey(180deg); /* Standard syntax */
+				}
+			}
+
+			&.menu-svg-rotate{
+				opacity: 1;
+				-webkit-transform: rotatey(360deg); /* Chrome, Safari, Opera */
+				transform: rotatey(360deg); /* Standard syntax */
+			}
+
+			h3{
+				font-weight: 300;
+				margin-top: 30%;
+				color: @midblue2;
+				font-size: 3em;
+				display: inline-block;
+				text-transform: uppercase;
+				width: 100%;
+				.animate;
+			}
+		}
+	}
+}

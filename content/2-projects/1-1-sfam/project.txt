@@ -1,0 +1,66 @@
+Title: SFAM
+
+----
+
+Text: The Society for Applied Microbiology is one of the UK leading Microbiological associations, with nearly 2000 members with a broad age range. This site is designed to be forward looking, modern and authoritative whilst still intuitive and accessible in context of age and device. 
+
+In this project I was the designer and I also developed the entire front-end. This site is currently in staging pending go live, links are available on request.
+
+----
+
+Disciplines: design & frontend
+
+----
+
+Work: <div class="col-md-12" id="designs">
+            <div class="row">
+              <div class="col-md-12">
+                <img src="/hassan/assets/img/work/100a-SFAM-Homepage.jpg"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <img src="/hassan/assets/img/work/100a-SFAM-News-section-page.jpg"/>
+              </div>
+              <div class="col-md-8">
+                <img src="/hassan/assets/img/work/103-SFAM-Standard.jpg"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <img src="/hassan/assets/img/work/101-SFAM-News.jpg"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img src="/hassan/assets/img/work/103-SFAM-Standard-grid.jpg"/>
+              </div>
+              <div class="col-md-6">
+                <img src="/hassan/assets/img/work/100b-SFAM-Homepage.jpg"/>
+              </div>
+            </div>
+          </div>
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/1-1-sfam/sfam-logo.png
+
+----
+
+Involvement: 100,100,100,100,100,50
+
+----
+
+Ratio1: 300
+
+----
+
+Ratio2: 300
+
+----
+
+Ownership1: 800
+
+----
+
+Ownership2: 200

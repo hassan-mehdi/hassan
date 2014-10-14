@@ -1,0 +1,54 @@
+Title: mrhedge
+
+----
+
+Disciplines: design
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/mrhedge/mrhedge-logo.png
+
+----
+
+Involvement: 100,0,0,10,0,20
+
+----
+
+Ratio1: 100
+
+----
+
+Ratio2: 1000
+
+----
+
+Ownership1: 400
+
+----
+
+Ownership2: 600
+
+----
+
+Text: Mr. Hedge was a concept design for a microsite, An existing client wanted to raise awareness of Hedge Funds to the general public about misconceptions within Hedge Funds. The client wanted to take a casual, creative and engaging approach and they had already decided upon a comic book theme and the mascot Mr. Hedge. I was tasked with designing the site as well as take the flat colour illustrations for a third party and ad shadows, highlights and backgrounds to create rich banners. As well as design the UI itself.
+
+----
+
+Work: <div class="col-md-12" id="designs">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/100-MrHedge-Home-A.jpg"/>
+					</div>
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/100-MrHedge-Home-D.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/101-MrHedge-Home-B.jpg"/>
+					</div>
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/100-MrHedge-Home-C.jpg"/>
+					</div>
+				</div>
+			</div>

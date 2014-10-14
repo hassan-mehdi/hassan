@@ -1,0 +1,114 @@
+@import url("../lessGlobals/colour.less");
+@import url("../lessGlobals/font.less");
+@import url("../lessGlobals/mixins.less");
+
+body{
+	background: @white;
+	color: @textcolor;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	opacity: 0;
+
+	.animate;
+
+	&.loaded{
+		opacity: 1;
+	}
+}
+
+h1{
+	.h1;
+}
+
+h2{
+	.h2;
+}
+	
+h3{
+	.h3;
+}
+
+h4{
+	.h4;
+}
+
+h5{
+	.h5;
+}
+
+h6{
+	.h6;
+}
+
+p{
+	.p;
+}
+
+a{
+	opacity: 1;
+	.animate(1s);
+	
+	&:hover{
+		text-decoration: none;
+		opacity: 0.8;
+	}
+}
+
+.up{
+	text-transform: uppercase;
+}
+
+.lite{
+	font-weight: 300;
+}
+
+#page-wrapper{
+	.animate;
+}
+
+svg{
+	overflow: visible;
+}
+
+.fadeIn{
+	.keyframeAnimation(fadeIn, 2s);
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Standard syntax */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.menu-offset{
+	margin-left: 69px;
+	padding-left: 0;
+	border-left: 1px solid @bordergrey2;
+
+	&.load-animation{
+		opacity: 0;
+		.animate(1s);
+
+		&.display-content{
+			opacity: 1;
+		}
+	}
+}
+
+.nicescroll-rails{
+	z-index: 10;
+}

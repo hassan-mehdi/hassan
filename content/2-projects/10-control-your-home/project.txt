@@ -1,0 +1,48 @@
+Title: Control Your Home
+
+----
+
+Disciplines: Design & Frontend
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/control-your-home/tachma-logo.png
+
+----
+
+Involvement: 100,50,50,30,0,0
+
+----
+
+Ratio1: 400
+
+----
+
+Ratio2: 700
+
+----
+
+Ownership1: 600
+
+----
+
+Ownership2: 400
+
+----
+
+Text: Control Your Home was a simple microsite designed to encourage the public to consider their home's heating. 
+
+As the designer in the project I decided to take an infographic approach to the website's design. Designing a interactive and animated house on the homepage as faux navigation for different heating subjects.
+
+----
+
+Work: <div class="col-md-12" id="designs">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/100-tachma-homepage-dropdown-2.jpg"/>
+					</div>
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/100-tachma-findaninstaller.jpg"/>
+					</div>
+				</div>
+			</div>

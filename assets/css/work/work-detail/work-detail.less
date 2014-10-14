@@ -1,0 +1,161 @@
+@import url("../../lessGlobals/colour.less");
+@import url("../../lessGlobals/font.less");
+@import url("../../lessGlobals/mixins.less");
+
+body{
+	color: @textcolor;
+}
+
+#page-title{
+	border-bottom: 1px solid @bordergrey2;
+	padding-bottom: 15px;
+}
+
+#work-sidebar{
+	padding-right: 0;
+}
+
+#work-detail{
+	border-left: 1px solid @bordergrey2;
+	padding: 0;
+
+	#logo{
+		text-align: center;
+		border-bottom: 1px solid @bordergrey2;
+		padding: 50px 15px;
+	}
+
+	#stats{
+		text-align: center;
+		padding: 15px;
+		border-bottom: 1px solid @bordergrey2;
+		padding: 50px 15px;
+
+		h4{
+			margin-top: 30px;
+			line-height: 1.8em;
+
+			em{
+				font-style: normal;
+				border-right: 1px solid @bordergrey1;
+				padding: 0 10px 0 20px;
+				margin-right: 10px;
+			}
+		}
+	}
+
+	#designs{
+		padding: 15px;
+		background: #D7D7D7;
+		text-align: center;
+
+		img{
+			padding: 20px 15px;
+			max-width: 100%;
+		}
+	}
+}
+
+#info-wrap{
+	.col-md-12{
+		padding: 15px;
+	}
+
+	p{
+		margin: 0 0 15px 0;
+	}
+
+	#work-desc{
+		min-height: 0;
+		.animate(0.5s);
+	}
+}
+
+.work-nav-wrap{
+	display: inline-block;
+	float: left;
+	width: 100%;
+
+	h6{
+		background: @midblue2;
+		color: @white;
+		padding: 10px 15px;
+	}
+
+	.work-nav-prev{
+		float: left;
+		display: inline-block;
+		width: 57%;
+		padding: 15px 0 15px 15px;
+		border-color: @bordergrey2;
+		border-width: 0 1px 1px 0;
+		border-style: solid;
+
+		&.no-next{
+			width: 100%;
+			border-right: none;
+		}
+
+		.work-nav-prev-icon{
+			float: left;
+			display: inline-block;
+			margin: 0 15px 0 0;
+		}
+
+		h5{
+			float: left;
+		}
+	}
+
+	.work-nav-next{
+		float: right;
+		display: inline-block;
+		width: 43%;
+		padding: 15px 15px 15px 0;
+		border-color: @bordergrey2;
+		border-width: 0 0 1px 0;
+		border-style: solid;
+
+		&.no-prev{
+			width: 100%;
+		}
+
+		.work-nav-next-icon{
+			float: right;
+			display: inline-block;
+			margin: 0 0 0 15px;
+		}
+
+		h5{
+			float: right;
+		}
+	}
+
+	.page-tools{
+		height: 0;
+		opacity: 0;
+		padding: 0;
+		overflow: hidden;
+		display: inline-block;
+	}
+	
+	.backtoTop{
+		color: @textcolor;
+		float: left;
+		display: inline-block;
+		width: 100%;
+		padding: 15px;
+		border-bottom: 1px solid @bordergrey2;
+		.h5;
+	}
+
+	.share-tools{
+		text-align: center;
+		display: inline-block;
+		padding: 15px;
+		width: 100%;
+		overflow: hidden;
+		border-bottom: 1px solid @bordergrey2;
+		.animate;
+	}
+}

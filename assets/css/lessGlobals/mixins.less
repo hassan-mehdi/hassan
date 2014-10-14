@@ -1,0 +1,16 @@
+.animate(@time: 0.5s;){
+	-webkit-transition: all @time cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-moz-transition: all @time cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-ms-transition: all @time cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-o-transition: all @time cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	transition: all @time cubic-bezier(1.000, 0.000, 0.000, 1.000);
+}
+
+.keyframeAnimation(@animname: animname; @animtime: 1s;){
+	-webkit-animation: @animname @animtime cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+	   -moz-animation: @animname @animtime cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+	     -o-animation: @animname @animtime cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+	        animation: @animname @animtime cubic-bezier(0.895, 0.030, 0.685, 0.220); /* easeInOutQuart */
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}

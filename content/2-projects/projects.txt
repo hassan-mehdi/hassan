@@ -1,0 +1,122 @@
+Title: Projects
+
+----
+
+Text: <div class="container-fluid menu-offset load-animation">
+	<div class="row">
+		<div class="col-md-4">
+			<a class="work-link" href="projects/1-sfam">
+				<img src="assets/img/sfam-logo.png">
+				<div class="desc">
+					<h2>SFAM</h2>
+					<h3>Design & Frontend</h3>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a class="work-link" href="projects/2-ged">
+				<img src="assets/img/ged-logo.png">
+				<div class="desc">
+					<h2>Great Education Debate</h2>
+					<h3>Design & Frontend</h3>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a class="work-link" href="projects/3-bali">
+				<img src="assets/img/bali-logo.png">
+				<div class="desc">
+					<h2>BALI</h2>
+					<h3>Design</h3>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<a class="work-link" href="projects/scidev">
+				<img src="assets/img/scidev-logo.png">
+				<div class="desc">
+					<h2>SCIDEV</h2>
+					<h3>Frontend</h3>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a class="work-link" href="projects/imw">
+				<img src="assets/img/imw-logo.png">
+				<div class="desc">
+					<h2>The Institute of Masters of Wine</h2>
+					<h3>Design & Frontend</h3>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a class="work-link" href="projects/bhhpa">
+				<img src="assets/img/bhhpa-logo.png">
+				<div class="desc">
+					<h2>BHHPA</h2>
+					<h3>Design</h3>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<a class="work-link" href="projects/send">
+				<img src="assets/img/send-logo.png">
+				<div class="desc">
+					<h2>SEND Gateway</h2>
+					<h3>Design</h3>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a class="work-link" href="projects/basem">
+				<img src="assets/img/basem-logo.png">
+				<div class="desc">
+					<h2>BASEM</h2>
+					<h3>Design</h3>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a class="work-link" href="projects/mrhedge">
+				<img src="assets/img/mrhedge-logo.png">
+				<div class="desc">
+					<h2>Mr. Hedge</h2>
+					<h3>Design</h3>
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<a class="work-link" href="projects/control-your-home">
+				<img src="assets/img/tachma-logo.png">
+				<div class="desc">
+					<h2>Control Your Home</h2>
+					<h3>Design & Frontend</h3>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a class="work-link" href="projects/6c">
+				<img src="assets/img/6c-logo.png">
+				<div class="desc">
+					<h2>6C's Guide</h2>
+					<h3>Design</h3>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-4">
+			<a class="work-link" href="projects/moodboards">
+				<img src="assets/img/moodboard-icon.png">
+				<div class="desc">
+					<h2>Moodboards</h2>
+					<h3>Design</h3>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>

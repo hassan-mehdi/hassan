@@ -1,0 +1,63 @@
+Title: scidev
+
+----
+
+Disciplines: frontend
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/scidev/scidev-logo.png
+
+----
+
+Involvement: 30,90,90,80,50,60
+
+----
+
+Ratio1: 700
+
+----
+
+Ratio2: 300
+
+----
+
+Ownership1: 500
+
+----
+
+Ownership2: 500
+
+----
+
+Text: SCIDEV.NET is an international charity that's aim is to spread science across the developing world, with dedicated journalist world-wide creating original content. The site has a large content editor group, who write the article directly online. Further more the site also has close to 250,000 page hits a month, these users are located all over the world, with no common language, inconsistent internet connections and antiquated machines/devices.
+
+The site's front-end, developed by myself, is very carefully crafted to ensure the construction was lean whilst still accomplishing the designer's full vision. Further more this site also had to be built right to left for Arabic speaking countries. This site implements a stripped down low-bandwidth version which can be accessed on mobile, the low bandwidth version is extremely light using system fonts and vanilla js only when necessary. With site assets minified and split into core, shared and template, apart from core, shared and template assets are requested as and when required.
+
+Despite the limitations the site also has a lot of rich media content and UI's, implementing HTML5, LESSCSS, JQUERY spread over a large CDN network.
+
+----
+
+Work: <div class="col-md-12" id="designs">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/SCIDEV_homepage_12-pxl8-newsletter.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/SCIDEV_article_11.jpg"/>
+					</div>
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/SCIDEV_donate_04.jpg"/>
+						<div class="row">
+							<div class="col-md-6">
+								<img src="/hassan/assets/img/work/SCIDEV_mobile_03.jpg"/>
+							</div>
+							<div class="col-md-6">
+								<img src="/hassan/assets/img/work/SCIDEV_mobile_article_05.jpg"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>

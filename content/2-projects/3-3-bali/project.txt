@@ -1,0 +1,78 @@
+Title: bali
+
+----
+
+Disciplines: design
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/3-3-bali/bali-logo.png
+
+----
+
+Involvement: 100,50,30,10,100,50
+
+----
+
+Ratio1: 300
+
+----
+
+Ratio2: 900
+
+----
+
+Ownership1: 600
+
+----
+
+Ownership2: 400
+
+----
+
+Text: The British Association of Landscape Industries (BALI) is one England's most rigorous membership associations for landscape professionals, encompassing architects, landscapers, suppliers and many more the BALI badge is a sign of reliability and assurance. 
+
+The website is split in two, the public side and the professional side as well as the members' area.
+
+The public side is a service for the public to search for registered BALI professionals.
+
+As the designer I incorporated earthy colours, contrasting colours and mixed font weights to build a simple, light and clean UI. The website is fully responsive.
+
+----
+
+Work: <div class="col-md-12" id="designs">
+				<div class="row">
+					<div class="col-md-8">
+						<img src="/hassan/assets/img/work/100-BALI-Public-homepage-2.jpg"/>
+					</div>
+					<div class="col-md-4">
+						<img src="/hassan/assets/img/work/100-BALI-Public-Home.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="/hassan/assets/img/work/102-BALI-Public-search-2.jpg"/>
+					</div>
+					<div class="col-md-8">
+						<img src="/hassan/assets/img/work/102-BALI-Public-search.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/107-BALI-Industry-homepage1.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/108-BALI-Industry-whyjoin1.jpg"/>
+					</div>
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/106-BALI-Public-standard-with-banner.jpg">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/111a-BALI-Industry-member-homepage.jpg"/>
+					</div>
+				</div>
+			</div>

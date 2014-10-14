@@ -1,0 +1,56 @@
+Title: 6c
+
+----
+
+Disciplines: design
+
+----
+
+Logo: http://localhost/hassan/content/2-projects/6c/6c-logo.png
+
+----
+
+Involvement: 100,0,0,0,90,50
+
+----
+
+Ratio1: 0
+
+----
+
+Ratio2: 1000
+
+----
+
+Ownership1: 400
+
+----
+
+Ownership2: 600
+
+----
+
+Text: 6C was a concept design for a online library system where by users, in this case public sector, can login an access documents and media. the system could also show version history of a document as well as side by side comparison of documents. With the implementation of elastic search users could also search directly inside of documents when preforming keyword or faceted searches.
+
+----
+
+Work: <div class="col-md-12" id="designs">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/109-6c-homepage.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="/hassan/assets/img/work/114-6c-members-homepage.jpg"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/110-6c-knowledge.jpg"/>
+					</div>
+					<div class="col-md-6">
+						<img src="/hassan/assets/img/work/113-6c-knowledge-detail-options.jpg"/>
+					</div>
+				</div>
+			</div>
