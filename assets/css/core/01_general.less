@@ -74,6 +74,44 @@ svg{
 	.keyframeAnimation(fadeIn, 2s);
 }
 
+form{
+	background: none;
+	font-family: 'Oswald', sans-serif;
+
+	label{
+		.h4;
+		color: @white;
+		margin-bottom: 10px;
+	}
+
+	input, textarea, select{
+		color: @textcolor;
+		width: 100%;
+	}
+
+	.submit-wrapper{
+		margin-top: 15px;
+		padding-top: 25px;					
+		border-top: 1px solid @borderblue;
+
+		.button{
+			-moz-border-radius: 0;
+			-webkit-border-radius: 0;
+			border-radius: 0;
+			.h4;
+			color: @white;
+			padding: 10px 15px; 
+			height: auto;
+		}
+	}
+
+	input[type="submit"]{
+		padding: 15px 10px; 
+		display: inline-block;
+		.animate;
+	}
+}
+
 /* Chrome, Safari, Opera */
 @-webkit-keyframes fadeIn {
 	from {

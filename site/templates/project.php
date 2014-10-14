@@ -10,7 +10,11 @@
               <h3 class="up"><?php echo $page->disciplines() ?></h3>
             </div>
             <div class="col-md-12" id="work-desc">
-                <?php echo $page->text()->kirbytext() ?>
+              <div id="viewport">
+                <div id="contentScroll">
+                  <?php echo $page->text()->kirbytext() ?>
+                </div>
+              </div>
             </div>
             <div class="work-nav-wrap">
               <h6 class="up">Browse Projects</h6>

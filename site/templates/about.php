@@ -20,14 +20,15 @@
 						</div>
 						<img src="<?php echo $site->url() ?>/assets/img/me.jpg" alt="picture of me">
 					</section>
-					<section class="waypoint" data-stellar-ratio="2" id="experience">
+					<section class="waypoint" data-stellar-ratio="2.5" id="experience">
 						<div class="row">
 							<div class="col-md-12">
-								<h2 class="up">I design and build digital UI's</h2>
+								<h2 class="up">I am a designer who has a passion for code</h2>
 								<h3>I have been design and building websites professionally since 2009</h3>
 							</div>
 						</div>
 						<div class="row">
+							<div class="col-md-1"></div>
 							<div class="col-md-2">
 								<div class="svg-wrapper">
 									<svg id="microscope" xmlns="http://www.w3.org/2000/svg" width="86px" height="120px" viewBox="-27.007 -37.709 85.945 120">
@@ -168,14 +169,14 @@
 						</svg>
 					</div>
 					<div class="col-md-6 right">
-						<h1 class="up">I believe in a rich, consistent AND CREATIVE ui experience</h1>
-						<h4 class="lite">The way a site or application behaves and interacts should represent the clients brand and not that of the user’s OS or Browser, the way a button behaves when interacted with,the line-height, the letter spacing, tooltips, placeholders etc... should all be consistent with that of the clients brand.</h4>
+						<h1 class="up">I try to build rich, consistent AND CREATIVE ui experiences</h1>
+						<h4 class="lite">The way a site or application behaves and interacts should represent the clients brand, animation, typography, colour, composition and much much more. I prefer to restyle native behaviours to be consistent with the clients brand, to maintain<br>a solid aesthetic dialogue.</h4>
 					</div>
 				</section>
 				<section class="waypoint" id="skills">
-					<h2 class="up">Versatility & Broad skills</h2>
+					<h2 class="up">One of my<br>key skills is my<br>Versatility & skill sets</h2>
 					<img src="<?php echo $site->url() ?>/assets/img/about-arrow.png">
-					<h3 class="up lite">I AM NOT A<br>DESIGNer WHO CAN CODE<br>AND<br>I’M NOT A CODER WHO CAN DESIGN</h3>
+					<h3 class="up lite">This means I have the advantage of being able to communicate designs with other designers and technicalities with devs</h3>
 				</section>
 				<section>
 					<ul>
@@ -210,7 +211,24 @@
 					</ul>
 				</section>
 				<section class="waypoint about-height" id="contact">
-					<h1 class="up lite">if you would like to contact me</h1>
+					<div class="col-md-6">
+						<form method="post" action="http://localhost/hassan/process.php">
+							<label>Name</label>
+							<input name="name" placeholder="Type Here">
+
+							<label>Email</label>
+							<input name="email" type="email" placeholder="Type Here">
+
+							<label>Message</label>
+							<textarea name="message" placeholder="Type Here"></textarea>
+
+							<label>*What is 2+2? (Anti-spam)</label>
+							<input name="human" placeholder="Type Here">
+
+							<input id="submit" name="submit" type="submit" value="Submit">
+
+						</form>
+					</div>
 				</section>
 			</div>
 		</div>

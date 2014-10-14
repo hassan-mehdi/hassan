@@ -1131,7 +1131,7 @@ h3 {
   color: #141524;
   font-weight: 300;
   margin: 0;
-  line-height: 1em;
+  line-height: 2em;
 }
 h4 {
   font-size: 1.4em;
@@ -1197,6 +1197,52 @@ svg {
   /* easeInOutQuart */
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
+}
+form {
+  background: none;
+  font-family: 'Oswald', sans-serif;
+}
+form label {
+  font-size: 1.4em;
+  color: #141524;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.6em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+form input,
+form textarea,
+form select {
+  color: #141524;
+  width: 100%;
+}
+form .submit-wrapper {
+  margin-top: 15px;
+  padding-top: 25px;
+  border-top: 1px solid #1e1f32;
+}
+form .submit-wrapper .button {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  font-size: 1.4em;
+  color: #141524;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.6em;
+  color: #ffffff;
+  padding: 10px 15px;
+  height: auto;
+}
+form input[type="submit"] {
+  padding: 15px 10px;
+  display: inline-block;
+  -webkit-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -moz-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -ms-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
 }
 /* Chrome, Safari, Opera */
 @-webkit-keyframes fadeIn {
@@ -1289,6 +1335,9 @@ svg {
 #menu ul.menu-active-list {
   display: block;
   opacity: 1;
+}
+#menu ul.menu-active-list .submenu.menu-active-list {
+  display: none;
 }
 #menu ul li {
   float: left;

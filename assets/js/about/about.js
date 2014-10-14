@@ -118,14 +118,16 @@
 		$('#about').waypoint(function(direction) {
 			if(direction === 'up'){
 				$(this).css({'opacity':'1'});
+				$('#experience .row').css({'opacity':'0'});
 			} else if (direction === 'down'){
 				$(this).css({'opacity':'0'});
+				$('#experience .row').css({'opacity':'1'});
 			};
-		},{offset: -300});
+		},{offset: -50});
 
 		var windowHeight = $(window).height();
 
-		$('#experience, .about-height').css({'height':windowHeight});
+		$('.about-height').css({'height':windowHeight});
 
 		$('.waypoint').waypoint(function(){
 			var thisID = $(this).attr('id');
