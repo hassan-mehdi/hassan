@@ -147,7 +147,7 @@ a {
   padding: 10% 12%;
   height: 720px;
 }
-.container-fluid section#philosophy .right h1 {
+.container-fluid section#philosophy .right h2 {
   margin-bottom: 20px;
 }
 .container-fluid section#philosophy .right h4 {
@@ -157,6 +157,9 @@ a {
   padding: 10%;
   text-align: center;
 }
+.container-fluid section#skills h2 {
+  font-size: 5em;
+}
 .container-fluid section#skills h2,
 .container-fluid section#skills h3,
 .container-fluid section#skills img {
@@ -165,8 +168,29 @@ a {
 .container-fluid section#skills h3 {
   line-height: 1.8em;
 }
-.container-fluid section#contact {
-  padding-top: 30px;
+.container-fluid section#cv-download {
+  padding: 100px 50px 50px;
+}
+.container-fluid section#cv-download a {
+  margin-top: 150px;
+  position: relative;
+  display: inline-block;
+}
+.container-fluid section#cv-download a span {
+  width: 175px;
+  position: absolute;
+  z-index: 2;
+  top: 50px;
+  font-size: 2.5em;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.25em;
+  -webkit-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -moz-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -ms-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
 }
 .container-fluid section ul {
   list-style-type: none;

@@ -9,7 +9,7 @@
 						<li><a class="about-menu-link up voidFade active" href="#experience">What I do</a></li>
 						<li><a class="about-menu-link up voidFade" href="#philosophy">Philosophy</a></li>
 						<li><a class="about-menu-link up voidFade" href="#skills">Skill sets</a></li>
-						<li><a class="about-menu-link up voidFade" href="#contact">Contact me</a></li>
+						<li><a class="about-menu-link up voidFade" href="#cv-download">My CV</a></li>
 					</ul>
 				</div>
 				<div id="experience" class="waypoint">
@@ -24,7 +24,7 @@
 						<div class="row">
 							<div class="col-md-12">
 								<h2 class="up">I am a designer who has a passion for code</h2>
-								<h3>I have been design and building websites professionally since 2009</h3>
+								<h3>I have been designing and building websites professionally since 2009</h3>
 							</div>
 						</div>
 						<div class="row">
@@ -141,12 +141,12 @@
 					</ul>
 					<ul>
 						<li><h3 class="up">HTML EMAIL</h3></li>
-						<li><h3 class="up">NEWS SECTIONS</h3></li>
+						<li><h3 class="up">NEWS/EDITORIALS</h3></li>
 						<li><h3 class="up">INTRANETS</h3></li>
 						<li><h3 class="up">FORUMS</h3></li>
 					</ul>
 					<ul>
-						<li><h3 class="up">FACETED SEARCH</h3></li>
+						<li><h3 class="up">FACETED/ELASTIC SEARCH</h3></li>
 						<li><h3 class="up">LIBRARY SYSTEMS</h3></li>
 						<li><h3 class="up">MEDIA CENTRES</h3></li>
 						<li><h3 class="up">MICROSITES</h3></li>
@@ -174,60 +174,51 @@
 					</div>
 				</section>
 				<section class="waypoint" id="skills">
-					<h2 class="up">One of my<br>key skills is my<br>Versatility & skill sets</h2>
+					<h2 class="up">Versatility</h2>
 					<img src="<?php echo $site->url() ?>/assets/img/about-arrow.png">
-					<h3 class="up lite">This means I have the advantage of being able to communicate designs with other designers and technicalities with devs</h3>
+					<h3 class="up lite">Being a coder and a designer I have the advantage of being able to discuss leading and kerning with designers and then have a chat about mixins and functions with devs</h3>
 				</section>
 				<section>
 					<ul>
-						<li><h3 class="up">cms</h3></li>
-						<li><h3 class="up">CRM</h3></li>
-						<li><h3 class="up">CPD</h3></li>
-						<li><h3 class="up">MEMBER RENEWALS</h3></li>
+						<li><h3 class="up">PHOTOSHOP</h3></li>
+						<li><h3 class="up">SUBLIME</h3></li>
+						<li><h3 class="up">FIREWORKS</h3></li>
+						<li><h3 class="up">ILLUSTRATOR</h3></li>
 					</ul>
 					<ul>
-						<li><h3 class="up">EVENT BOOKING</h3></li>
-						<li><h3 class="up">BLOGS</h3></li>
-						<li><h3 class="up">MEMBERS' AREA</h3></li>
-						<li><h3 class="up">COMPLEX FORMS</h3></li>
+						<li><h3 class="up">HTML5</h3></li>
+						<li><h3 class="up">CSS3</h3></li>
+						<li><h3 class="up">LESS</h3></li>
+						<li><h3 class="up">JS/JQUERY</h3></li>
 					</ul>
 					<ul>
-						<li><h3 class="up">MULTI-LINGUAL</h3></li>
-						<li><h3 class="up">FULLY RESPONSIVE</h3></li>
-						<li><h3 class="up">ELASTIC RESEARCH</h3></li>
-						<li><h3 class="up">PUBLICATIONS</h3></li>
+						<li><h3 class="up">GRUNT</h3></li>
+						<li><h3 class="up">GITHUB</h3></li>
+						<li><h3 class="up">SVN</h3></li>
+						<li><h3 class="up">QA TESTING</h3></li>
 					</ul>
 					<ul>
-						<li><h3 class="up">HTML EMAIL</h3></li>
-						<li><h3 class="up">NEWS SECTIONS</h3></li>
-						<li><h3 class="up">INTRANETS</h3></li>
-						<li><h3 class="up">FORUMS</h3></li>
+						<li><h3 class="up">BASIC PHP</h3></li>
+						<li><h3 class="up">BASIC COLD FUSION</h3></li>
+						<li><h3 class="up">WIREFRAMING</h3></li>
+						<li><h3 class="up">UI/UX</h3></li>
 					</ul>
 					<ul>
-						<li><h3 class="up">FACETED SEARCH</h3></li>
-						<li><h3 class="up">LIBRARY SYSTEMS</h3></li>
-						<li><h3 class="up">MEDIA CENTRES</h3></li>
-						<li><h3 class="up">MICROSITES</h3></li>
+						<li><h3 class="up">SVG ANIMATION</h3></li>
+						<li><h3 class="up">VIDEO/PHOTO EDITING</h3></li>
+						<li><h3 class="up">AFTEREFFECTS</h3></li>
+						<li><h3 class="up">FLASH/AS3</h3></li>
 					</ul>
 				</section>
-				<section class="waypoint about-height" id="contact">
-					<div class="col-md-6">
-						<form method="post" action="http://localhost/hassan/process.php">
-							<label>Name</label>
-							<input name="name" placeholder="Type Here">
-
-							<label>Email</label>
-							<input name="email" type="email" placeholder="Type Here">
-
-							<label>Message</label>
-							<textarea name="message" placeholder="Type Here"></textarea>
-
-							<label>*What is 2+2? (Anti-spam)</label>
-							<input name="human" placeholder="Type Here">
-
-							<input id="submit" name="submit" type="submit" value="Submit">
-
-						</form>
+				<section class="waypoint about-height" id="cv-download">
+					<div class="row">
+						<div class="col-md-12 centered">
+							<h1 class="up lite">If you are interested in hiring me take a copy of my CV</h1>
+							<a class="voidFade downloadLink download-btn-link" href="assets/docs/sara-cv-2014.pdf">
+								<span class="up download-btn-text">Download my CV</span>
+								<svg width="175" height="175" id="download-btn"></svg>
+							</a>
+						</div>
 					</div>
 				</section>
 			</div>

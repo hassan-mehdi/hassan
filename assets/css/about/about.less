@@ -155,7 +155,8 @@ h1, h2, h3, h4, h5, h6, p, a{
 				padding: 10% 12%; 
 				height: 720px;
 
-				h1{
+				h2
+				{
 					margin-bottom: 20px;
 				}
 
@@ -168,6 +169,11 @@ h1, h2, h3, h4, h5, h6, p, a{
 		&#skills{
 			padding: 10%; 
 			text-align: center;
+			
+			h2{
+				font-size: 5em;
+			}
+
 			h2, h3, img{
 				margin: 25px 0;
 			}
@@ -177,8 +183,23 @@ h1, h2, h3, h4, h5, h6, p, a{
 			}
 		}
 
-		&#contact{
-			padding-top: 30px;
+		&#cv-download{
+			padding: 100px 50px 50px;
+
+			a{
+				margin-top: 150px;
+				position: relative;
+				display: inline-block;
+
+				span{
+					width: 175px;
+					position: absolute;
+					z-index: 2;
+					top: 50px;
+					.h2(@white);
+					.animate;
+				}
+			}
 		}
 
 		ul{

@@ -1155,11 +1155,14 @@ h6 {
   line-height: 1em;
 }
 p {
-  font-size: 0.9em;
+  font-size: 1em;
   color: #141524;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   line-height: 1.75em;
+}
+p.largeFont {
+  font-size: 1.4em;
 }
 a {
   opacity: 1;
@@ -1179,12 +1182,15 @@ a:hover {
 .lite {
   font-weight: 300;
 }
+.centered {
+  text-align: center;
+}
 #page-wrapper {
-  -webkit-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  -moz-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  -ms-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -webkit-transition: all 2s cubic-bezier(1, 0, 0, 1);
+  -moz-transition: all 2s cubic-bezier(1, 0, 0, 1);
+  -ms-transition: all 2s cubic-bezier(1, 0, 0, 1);
+  -o-transition: all 2s cubic-bezier(1, 0, 0, 1);
+  transition: all 2s cubic-bezier(1, 0, 0, 1);
 }
 svg {
   overflow: visible;
@@ -1198,51 +1204,91 @@ svg {
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
 }
-form {
+.form-wrapper {
+  position: relative;
+}
+.form-wrapper #loader-shape {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 47%;
+}
+.form-wrapper form {
   background: none;
   font-family: 'Oswald', sans-serif;
 }
-form label {
+.form-wrapper form h1 {
+  margin: 15px 0;
+}
+.form-wrapper form .form-inner {
+  -webkit-transition: all 1s cubic-bezier(1, 0, 0, 1);
+  -moz-transition: all 1s cubic-bezier(1, 0, 0, 1);
+  -ms-transition: all 1s cubic-bezier(1, 0, 0, 1);
+  -o-transition: all 1s cubic-bezier(1, 0, 0, 1);
+  transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+.form-wrapper form label {
   font-size: 1.4em;
   color: #141524;
   font-weight: 400;
   margin: 0;
   line-height: 1.6em;
   color: #ffffff;
-  margin-bottom: 10px;
-}
-form input,
-form textarea,
-form select {
-  color: #141524;
-  width: 100%;
-}
-form .submit-wrapper {
-  margin-top: 15px;
-  padding-top: 25px;
-  border-top: 1px solid #1e1f32;
-}
-form .submit-wrapper .button {
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  font-size: 1.4em;
-  color: #141524;
-  font-weight: 400;
-  margin: 0;
-  line-height: 1.6em;
-  color: #ffffff;
-  padding: 10px 15px;
-  height: auto;
-}
-form input[type="submit"] {
-  padding: 15px 10px;
+  margin: 30px 0 10px 0;
   display: inline-block;
+  width: 100%;
+  font-weight: 300;
+}
+.form-wrapper form input[type="text"],
+.form-wrapper form input[type="email"],
+.form-wrapper form textarea,
+.form-wrapper form select {
   -webkit-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
   -moz-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
   -ms-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
   -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
   transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  outline: none;
+}
+.form-wrapper form input[type="text"]:focus,
+.form-wrapper form input[type="email"]:focus,
+.form-wrapper form textarea:focus,
+.form-wrapper form select:focus {
+  border: 1px solid #1F74BA;
+}
+.form-wrapper form input[type="text"],
+.form-wrapper form input[type="email"],
+.form-wrapper form select {
+  height: 40px;
+  font-weight: 300;
+}
+.form-wrapper form input[type="text"],
+.form-wrapper form input[type="email"],
+.form-wrapper form textarea,
+.form-wrapper form select {
+  border: 1px solid #1e1f32;
+  background: none;
+  width: 100%;
+  padding: 15px;
+}
+.form-wrapper form input[type="text"].error,
+.form-wrapper form input[type="email"].error,
+.form-wrapper form textarea.error,
+.form-wrapper form select.error {
+  border: 1px solid #f00;
+}
+.form-wrapper form .submit-wrapper,
+.form-wrapper form input[type="submit"] {
+  font-size: 1.4em;
+  color: #141524;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.6em;
+  margin-top: 30px;
+  color: #ffffff;
+  padding: 10px 15px;
+  background: #44455c;
+  border: none;
 }
 /* Chrome, Safari, Opera */
 @-webkit-keyframes fadeIn {
@@ -1265,7 +1311,7 @@ form input[type="submit"] {
 .menu-offset {
   margin-left: 69px;
   padding-left: 0;
-  border-left: 1px solid #d1d1d1;
+  border-left: 1px solid #1e1f32;
 }
 .menu-offset.load-animation {
   opacity: 0;
@@ -1282,11 +1328,8 @@ form input[type="submit"] {
   z-index: 10;
 }
 
-#menu-logo {
-  background: url(../img/logo.png) no-repeat 0 0;
-  background-size: 100%;
-  width: 50px;
-  height: 78px;
+#hassan-logo {
+  margin: 9px 4px 0;
 }
 #menu {
   position: fixed;

@@ -1,5 +1,5 @@
 <nav role="navigation" id="menu">
-  <a href="<?php echo url() ?>"><div id="menu-logo"></div></a>
+  <a href="<?php echo url() ?>"><img id="hassan-logo" alt="logo" src="assets/img/svg/logo.svg" width="40" height="62"></a>
   <div id="menu-inner">
     <div id="menuIcon-wrap">
       <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" id="menuIcon">

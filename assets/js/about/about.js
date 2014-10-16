@@ -188,6 +188,20 @@
 		};
 
 		responsiveShapeAnimation();
-	});
 
+		var downloadBtn = Snap('#download-btn');
+		var downloadBtnShape = downloadBtn.path('M87.607-40.788c71.596,0,129.635,56.56,129.635,128.155S159.203,217.001,87.607,217.001 c-71.595,0-129.636-58.039-129.636-129.634S16.012-40.788,87.607-40.788z');
+
+		downloadBtnShape.attr({
+			fill: '#44455c'
+		});
+
+        $('.download-btn-link').on('click', function(){
+        	downloadBtnShape.animate({d: 'M175.215,60L87.607,175.215L0,60c0,0,39.223,54.188,87.607,54.188C135.991,114.188,175.215,60,175.215,60z'},1500,mina.elastic);
+        	downloadBtnShape.animate({fill: '#fff'},500);
+
+        	$('.download-btn-text').css({'top':'-20px'}).html('<img src="assets/img/svg/peace-out.svg">');
+        });
+
+	});
 })(jQuery);

@@ -1,0 +1,43 @@
+Title: Credits
+
+----
+
+Text: <ul class="big-list">
+	<li><h3 class="up"><a href="http://modernizr.com/">Modernizr</a></h3></li>
+	<li><h3 class="up"><a href="http://jquery.com/">jQuery</a></h3></li>
+	<li><h3 class="up"><a href="http://lesscss.org/">LESS</a></h3></li>
+	<li><h3 class="up"><a href="http://gruntjs.com/">Grunt</a></h3></li>
+</ul>
+<ul class="big-list">
+	<li><h3 class="up"><a href="">xampp</a></h3></li>
+	<li><h3 class="up"><a href="http://getkirby.com/">Kirby CMS</a></h3></li>
+	<li><h3 class="up"><a href="http://git-scm.com/">Git</a></h3></li>
+	<li><h3 class="up"><a href="https://github.com/">GitHub</a></h3></li>
+</ul>
+<ul class="big-list">
+	<li><h3 class="up"><a href="http://nodejs.org/">node.js</a></h3></li>
+	<li><h3 class="up"><a href="https://www.npmjs.org/">npm</a></h3></li>
+	<li><h3 class="up"><a href="https://code.google.com/p/html5shiv/">HTML5shiv</a></h3></li>
+	<li><h3 class="up"><a href="http://snapsvg.io/">snapsvg.js</a></h3></li>
+</ul>
+<ul class="big-list">
+	<li><h3 class="up"><a href="http://imakewebthings.com/jquery-waypoints/">waypoints</a></h3></li>
+	<li><h3 class="up"><a href="http://www.chartjs.org/">charts.js</a></h3></li>
+	<li><h3 class="up"><a href="http://markdalgleish.com/projects/stellar.js/">stellar.js</a></h3></li>
+	<li><h3 class="up"><a href="http://stickyjs.com/">sticky.js</a></h3></li>
+</ul>
+<ul class="big-list">
+	<li><h3 class="up"><a href="http://nick-jonas.github.io/windows/">window-snap.js</a></h3></li>
+	<li><h3 class="up"><a href="http://syddev.com/jquery.videoBG/">videoBG.js</a></h3></li>
+	<li><h3 class="up"><a href="http://gianlucaguarini.github.io/jquery.html5loader/">preloader.js</a></h3></li>
+	<li><h3 class="up"><a href="http://areaaperta.com/nicescroll/">nicescroll</a></h3></li>
+</ul>
+<ul class="big-list half-col">
+	<li>
+		<h3 class="up">
+			<img src="assets/img/svg/peace-out.svg"><br>
+			Peace designed by <a href="http://www.thenounproject.com/pchuchla">Piotrek Chuchla</a> from the <a href="http://www.thenounproject.com">Noun Project</a>
+		</h3>
+	</li>
+	<li><h3 class="up"><a href="http://www.flaticon.com/packs/science-icons">Science Icons by Freepik</a></h3></li>
+</ul>

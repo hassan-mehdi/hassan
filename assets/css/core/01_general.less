@@ -42,6 +42,10 @@ h6{
 
 p{
 	.p;
+
+	&.largeFont{
+		font-size: 1.4em;
+	}
 }
 
 a{
@@ -62,8 +66,12 @@ a{
 	font-weight: 300;
 }
 
+.centered{
+	text-align: center;
+}
+
 #page-wrapper{
-	.animate;
+	.animate(2s);
 }
 
 svg{
@@ -74,41 +82,70 @@ svg{
 	.keyframeAnimation(fadeIn, 2s);
 }
 
-form{
-	background: none;
-	font-family: 'Oswald', sans-serif;
+.form-wrapper{
+	position: relative;
 
-	label{
-		.h4;
-		color: @white;
-		margin-bottom: 10px;
+	#loader-shape{
+		display: none;
+		position: absolute;
+		top: 45%;
+		left: 47%;
 	}
 
-	input, textarea, select{
-		color: @textcolor;
-		width: 100%;
-	}
+	form{
+		background: none;
+		font-family: 'Oswald', sans-serif;
 
-	.submit-wrapper{
-		margin-top: 15px;
-		padding-top: 25px;					
-		border-top: 1px solid @borderblue;
+		h1{
+			margin: 15px 0;
+		}
 
-		.button{
-			-moz-border-radius: 0;
-			-webkit-border-radius: 0;
-			border-radius: 0;
+		.form-inner{
+			.animate(1s);
+		}
+
+		label{
 			.h4;
 			color: @white;
-			padding: 10px 15px; 
-			height: auto;
+			margin: 30px 0 10px 0;
+			display: inline-block;
+			width: 100%;
+			font-weight: 300;
 		}
-	}
 
-	input[type="submit"]{
-		padding: 15px 10px; 
-		display: inline-block;
-		.animate;
+		input[type="text"], input[type="email"], textarea, select{
+			.animate;
+			outline: none;
+
+			&:focus{
+				border: 1px solid #1F74BA;
+			}
+		}
+
+		input[type="text"], input[type="email"], select{
+			height: 40px;
+			font-weight: 300;
+		}
+
+		input[type="text"], input[type="email"], textarea, select{
+			border: 1px solid @borderblue;
+			background: none;
+			width: 100%;
+			padding: 15px;
+
+			&.error{
+				border: 1px solid #f00;
+			}
+		}
+
+		.submit-wrapper, input[type="submit"]{
+			.h4;
+			margin-top: 30px;
+			color: @white;
+			padding: 10px 15px; 
+			background: @midblue2;
+			border: none;
+		}
 	}
 }
 
@@ -135,7 +172,7 @@ form{
 .menu-offset{
 	margin-left: 69px;
 	padding-left: 0;
-	border-left: 1px solid @bordergrey2;
+	border-left: 1px solid @borderblue;
 
 	&.load-animation{
 		opacity: 0;

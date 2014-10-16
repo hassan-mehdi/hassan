@@ -1,0 +1,56 @@
+@import url("../lessGlobals/colour.less");
+@import url("../lessGlobals/font.less");
+@import url("../lessGlobals/mixins.less");
+
+html, body{
+	background: @darkblue2;
+	color: @white;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+	color: @white;
+}
+
+#menu{
+	background-color: @darkblue2;
+	border-right: 1px solid @borderblue;
+
+	&.menu-active{
+		opacity: 0.8;
+	}
+}
+
+.standard{
+	padding-top: 20px;
+}
+
+.big-list{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+	&.half-col{
+		li{
+			width: 50%;
+			border-top: 1px solid @borderblue;
+
+			&:first-child{
+				border-top: 1px solid @borderblue;				
+			}
+		}
+	}
+
+	li{
+		float: left;
+		display: inline-block;
+		width: 25%;
+		border-left: 1px solid @borderblue;
+		text-align: center;
+		min-height: 200px;
+		padding-top: 80px;
+
+		&:first-child{
+			border: none;
+		}
+	}
+}
