@@ -119,11 +119,13 @@
 			if(direction === 'up'){
 				$(this).css({'opacity':'1'});
 				$('#experience .row').css({'opacity':'0'});
+				$('#experience').removeClass('mobile-response')
 			} else if (direction === 'down'){
 				$(this).css({'opacity':'0'});
 				$('#experience .row').css({'opacity':'1'});
+				$('#experience').addClass('mobile-response')
 			};
-		},{offset: -50});
+		},{offset: -100});
 
 		var windowHeight = $(window).height();
 

@@ -83,9 +83,10 @@ a {
 }
 .container-fluid section#about img {
   width: 341px;
-  left: 40%;
+  left: 0;
+  right: 0;
   bottom: 0;
-  position: absolute;
+  margin: 0 auto;
 }
 .container-fluid section#experience {
   position: absolute;
@@ -213,6 +214,7 @@ a {
   position: relative;
   margin: 80px 0 80px;
   text-align: center;
+  display: inline-block;
 }
 .container-fluid section .svg-wrapper #bubble-1 {
   position: absolute;
@@ -220,7 +222,7 @@ a {
 .container-fluid section .svg-wrapper #compLine {
   position: absolute;
   top: 35px;
-  left: 114px;
+  right: 12px;
 }
 .container-fluid section .svg-wrapper .arrow-about {
   margin-top: 30px;
@@ -269,4 +271,61 @@ a {
   position: absolute;
   top: 0;
   left: 0;
+}
+@media all and (max-width: 800px) {
+  .about-menu {
+    display: none;
+  }
+  .row {
+    margin: 0;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .container-fluid .col-md-12 {
+    padding: 0;
+  }
+  .container-fluid section#about {
+    padding: 60px 0;
+    height: 650px;
+  }
+  .container-fluid section#experience {
+    background: #141524;
+    height: inherit;
+  }
+  .container-fluid section#experience.mobile-response {
+    padding: 50px 15px;
+    background: #181a2b url('../img/svg/experience-mobile-arrow.svg') no-repeat center center;
+  }
+  .container-fluid section#experience.mobile-response .col-md-1 {
+    display: none;
+  }
+  .container-fluid section#experience.mobile-response .svg-wrapper {
+    margin-top: 0;
+  }
+  .container-fluid section#experience.mobile-response .about-arrow-wrapper {
+    display: none;
+  }
+  .container-fluid section#philosophy .col-md-6.left {
+    display: none;
+  }
+  .container-fluid section#philosophy .col-md-6.right {
+    height: auto;
+  }
+  .container-fluid section#skills h2 {
+    font-size: 3em;
+  }
+  .container-fluid section.list ul {
+    width: 50%;
+    float: left;
+    display: inline-block;
+  }
+  .container-fluid section.list ul li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    min-height: initial;
+    border-left: 0;
+    text-align: left;
+  }
 }

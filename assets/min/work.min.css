@@ -23,9 +23,6 @@ body {
     background-color: #ffffff;
   }
 }
-.container-fluid {
-  margin-left: 69px;
-}
 .col-md-4 {
   border-color: #d1d1d1;
   border-width: 0 0 1px 1px;
@@ -69,4 +66,17 @@ body {
 .col-md-4 .desc h2,
 .col-md-4 .desc h3 {
   color: #141524;
+}
+@media all and (max-width: 800px) {
+  .container-fluid .col-md-4 {
+    height: 600px;
+  }
+}
+@media all and (max-width: 639px) {
+  .container-fluid .col-md-4 {
+    height: auto;
+  }
+  .container-fluid .col-md-4 .desc {
+    display: none;
+  }
 }

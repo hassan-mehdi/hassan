@@ -26,10 +26,6 @@ body{
 	}
 }
 
-.container-fluid{
-	margin-left: 69px;
-}
-
 .col-md-4{
 	border-color: @bordergrey2;
 	border-width: 0 0 1px 1px;
@@ -67,6 +63,26 @@ body{
 
 		h2, h3{
 			color: @textcolor;			
+		}
+	}
+}
+
+@media all and (max-width: 800px){
+	.container-fluid {
+		.col-md-4{
+			height: 600px;
+		}
+	}
+}
+
+@media all and (max-width: 639px){
+	.container-fluid {
+		.col-md-4{
+			height: auto;
+
+			.desc{
+				display: none;
+			}
 		}
 	}
 }

@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: HASSAN
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Hassan Mehdi
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Design & Front-end
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Kirby,CMS,file-based
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © (date: Year) (link: http://hassan.xyz text: hassan.xyz) - Built with love using (link: http://getkirby.com text: KirbyCMS)

@@ -84,9 +84,10 @@ h1, h2, h3, h4, h5, h6, p, a{
 
 			img{
 				width: 341px;
-				left: 40%;
+				left: 0;
+				right: 0;
 				bottom: 0;
-				position: absolute;
+				margin: 0 auto;
 			}
 		}
 
@@ -226,6 +227,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 			position: relative;
 			margin: 80px 0 80px;
 			text-align: center;
+			display: inline-block;
 
 			#bubble-1{
 				position: absolute;
@@ -234,7 +236,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 			#compLine{
 				position: absolute;
 				top: 35px;
-				left: 114px;
+				right: 12px;
 			}
 
 			.arrow-about{
@@ -297,4 +299,84 @@ h1, h2, h3, h4, h5, h6, p, a{
   position: absolute;
   top: 0;
   left: 0;
+}
+
+@media all and (max-width: 800px){
+	.about-menu{
+		display: none;
+	}
+
+	.row{
+		margin: 0;
+	}
+
+	.container-fluid {
+		padding: 0;
+
+		.col-md-12{
+			padding: 0;
+		}
+
+		section{
+			&#about{
+				padding: 60px 0;
+				height: 650px;
+			}
+
+			&#experience{
+				background: @darkblue2;
+				height: inherit;
+
+				&.mobile-response{
+					padding: 50px 15px;
+					background: @darkblue3 url('../img/svg/experience-mobile-arrow.svg') no-repeat center center;
+
+					.col-md-1{
+						display: none;
+					}
+
+					.svg-wrapper{
+						margin-top: 0;
+					}
+
+					.about-arrow-wrapper{
+						display: none;
+					}
+				}
+			}
+
+			&#philosophy{
+				.col-md-6.left{
+					display: none;
+				}
+
+				.col-md-6.right{
+					height: auto;
+				}
+			}
+
+			&#skills{
+				h2{
+					font-size: 3em;
+				}
+			}
+
+			&.list{
+				ul{
+					width: 50%;
+					float: left;
+					display: inline-block;
+					
+					li{
+						width: 100%;
+						padding: 0;
+						margin: 0;
+						min-height: initial;
+						border-left: 0;
+						text-align: left;
+					}
+				}
+			}
+		}
+	}
 }

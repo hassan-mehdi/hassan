@@ -159,3 +159,62 @@ body{
 		.animate;
 	}
 }
+
+@media all and (max-width: 800px){
+	.row{
+		margin: 0;
+	}
+
+	#work-sidebar{
+		padding: 0;
+		background: @white;
+		position: relative;
+		z-index: 2;
+
+		#info-wrap{
+			background: @white;
+		}
+
+		.page-tools{
+			display: none;
+		}
+
+		.work-nav{
+			background: @white;
+			float: left;
+			width: 100%;
+			
+			a{
+				padding: 5px;
+			}
+		}
+		
+		.is-sticky{
+			#page-title{
+				display: none;
+			}
+		}
+	}
+
+	#work-detail{
+		#logo{
+			border: none;
+		}
+
+		#designs{
+			padding: 0;
+		}
+
+		#stats{
+			display: none;
+		}
+	}
+}
+
+@media all and (max-width: 639px){
+	#work-sidebar{
+		#info-wrap{
+			top: 60px!important;
+		}
+	}
+}

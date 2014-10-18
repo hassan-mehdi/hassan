@@ -126,7 +126,7 @@ body{
 		.animate;
 
 		&:first-child{
-			border: none;
+			border-left: none;
 		}
 
 		.menu-svg{
@@ -163,6 +163,57 @@ body{
 				text-transform: uppercase;
 				width: 100%;
 				.animate;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 800px){
+	#bgvideo{
+		background: url(../video/bg.gif) no-repeat 0 0;
+		background-size: cover;
+	}
+
+	#splash{
+		padding-top: 80px;
+		h1{
+			.h1-mobile(@white, 2em);
+			margin: 15px 0;
+		}
+
+		hr{
+			width: 100%;
+		}
+
+		h2{
+			.h2-mobile(@white, 1.8em, 300);
+		}
+	}
+
+	#home-menu{
+		.option{
+			width: 100%!important;
+			height: 33.333%;
+			padding-top: 10%;
+			display: inline-block;
+			border-left: 0;
+			border-bottom: 1px solid @borderblue;
+
+			a{
+				svg{
+					height: 120px!important;
+					float: left;
+					margin-right: 30px;
+				}
+
+				h3{
+					float: left;
+					width: 40%;
+					text-align: left;
+					margin-top: 40px;
+					font-size: 1.6em;
+					color: @white;
+				}
 			}
 		}
 	}

@@ -16,7 +16,7 @@
 				$('#work-desc').css({'opacity':'0', 'height':'0', 'overflow':'hidden', 'padding' : '0'});
 				$('.page-tools').css({'opacity':'1', 'height': '120px', 'overflow':'visible', 'padding' : '0'});
 			};
-		});
+		}, {offset: (descHeight * 2)});
 
 		$('.backtoTop').on('click', function(e){
 			e.preventDefault();

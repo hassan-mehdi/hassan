@@ -12,7 +12,7 @@
 						<li><a class="about-menu-link up voidFade" href="#cv-download">My CV</a></li>
 					</ul>
 				</div>
-				<div id="experience" class="waypoint">
+				<div class="waypoint">
 					<section data-stellar-ratio="1" id="about">
 						<div class="fade fadeIn">
 							<h1 class="up">HI, I'M HASSAN</h1>
@@ -50,7 +50,7 @@
 									</svg>
 								</div>
 							</div>
-							<div class="col-md-2">
+							<div class="col-md-2 about-arrow-wrapper">
 								<div class="svg-wrapper">
 									<svg class="arrow-about" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="149.765px" height="69.835px" viewBox="0 0 149.765 69.835">
 										<line fill="none" stroke="#b1b3c3" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" x1="1" y1="34.885" x2="148.393" y2="34.885"/>
@@ -85,7 +85,7 @@
 									</svg>
 								</div>
 							</div>
-							<div class="col-md-2">
+							<div class="col-md-2 about-arrow-wrapper">
 								<div class="svg-wrapper">
 									<svg class="arrow-about" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="149.765px" height="69.835px" viewBox="0 0 149.765 69.835">
 										<line fill="none" stroke="#b1b3c3" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round" x1="1" y1="34.885" x2="148.393" y2="34.885"/>
@@ -120,7 +120,7 @@
 					<h2 class="up lite">I am currently working in south london</h2>
 					<h2 class="up">Where i build UI's for large membership organisations</h2>
 				</section>
-				<section>
+				<section class="list">
 					<ul>
 						<li><h3 class="up">cms</h3></li>
 						<li><h3 class="up">CRM</h3></li>
@@ -178,7 +178,7 @@
 					<img src="<?php echo $site->url() ?>/assets/img/about-arrow.png">
 					<h3 class="up lite">Being a coder and a designer I have the advantage of being able to discuss leading and kerning with designers and then have a chat about mixins and functions with devs</h3>
 				</section>
-				<section>
+				<section class="list">
 					<ul>
 						<li><h3 class="up">PHOTOSHOP</h3></li>
 						<li><h3 class="up">SUBLIME</h3></li>
