@@ -2,6 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 
 <head>
@@ -13,6 +14,9 @@
     <meta name="description" content="<?php echo $site->description()->html() ?>">
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <!--[if IE 9]>
+        <?php echo css('assets/min/fallbacks/ie9.min.css') ?>
+    <![endif]-->
     <?php echo js('assets/js/modernizr.min.js') ?>
     <?php echo css('assets/min/core.min.css') ?>
     <?php if(isset($css)) echo css($css) ?>

@@ -64,11 +64,6 @@ body{
 	p{
 		margin: 0 0 15px 0;
 	}
-
-	#work-desc{
-		min-height: 0;
-		.animate(0.5s);
-	}
 }
 
 .work-nav-wrap{
@@ -137,6 +132,7 @@ body{
 		padding: 0;
 		overflow: hidden;
 		display: inline-block;
+		width: 100%;
 	}
 	
 	.backtoTop{
@@ -198,6 +194,7 @@ body{
 
 	#work-detail{
 		#logo{
+			padding-top: 120px;
 			border: none;
 		}
 
@@ -213,8 +210,8 @@ body{
 
 @media all and (max-width: 639px){
 	#work-sidebar{
-		#info-wrap{
-			top: 60px!important;
+		.work-nav-wrap{
+			margin-top: 60px;
 		}
 	}
 }

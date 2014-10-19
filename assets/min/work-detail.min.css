@@ -48,14 +48,6 @@ body {
 #info-wrap p {
   margin: 0 0 15px 0;
 }
-#info-wrap #work-desc {
-  min-height: 0;
-  -webkit-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  -moz-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  -ms-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-}
 .work-nav-wrap {
   display: inline-block;
   float: left;
@@ -113,6 +105,7 @@ body {
   padding: 0;
   overflow: hidden;
   display: inline-block;
+  width: 100%;
 }
 .work-nav-wrap .backtoTop {
   float: left;
@@ -167,6 +160,7 @@ body {
     display: none;
   }
   #work-detail #logo {
+    padding-top: 120px;
     border: none;
   }
   #work-detail #designs {
@@ -177,7 +171,7 @@ body {
   }
 }
 @media all and (max-width: 639px) {
-  #work-sidebar #info-wrap {
-    top: 60px!important;
+  #work-sidebar .work-nav-wrap {
+    margin-top: 60px;
   }
 }

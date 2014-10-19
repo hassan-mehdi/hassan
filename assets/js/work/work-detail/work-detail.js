@@ -5,18 +5,25 @@
 	         openmenu();
 	    });
 
-	    var descHeight = $('#work-desc').innerHeight();
-	    $('#work-desc').css({'height': descHeight});
+		Response.action(function(){
+			var descHeight = $('#work-desc').innerHeight();
 
-		$('#designs').waypoint(function(direction) {
-			if(direction === 'up'){
-				$('#work-desc').css({'opacity':'1', 'height': descHeight, 'overflow':'visible', 'padding' : '15px'});
-				$('.page-tools').css({'opacity':'0', 'height':'0', 'overflow':'hidden', 'padding' : '0'});
-			} else if (direction === 'down'){
-				$('#work-desc').css({'opacity':'0', 'height':'0', 'overflow':'hidden', 'padding' : '0'});
-				$('.page-tools').css({'opacity':'1', 'height': '120px', 'overflow':'visible', 'padding' : '0'});
-			};
-		}, {offset: (descHeight * 2)});
+			if(Response.band( 0, 800 )){
+				var scrollOffset = (descHeight + 250);
+			} else {
+				var scrollOffset = descHeight;
+			}
+			
+			$('#designs').waypoint(function(direction) {
+				if(direction === 'up'){
+					$('#work-desc').slideDown(500, 'easeInOutCirc');
+					$('.page-tools').css({'opacity':'0', 'height':'0', 'overflow':'hidden', 'padding' : '0'});
+				} else if (direction === 'down'){
+					$('#work-desc').slideUp(500, 'easeInOutCirc');
+					$('.page-tools').css({'opacity':'1', 'height': '120px', 'overflow':'visible', 'padding' : '0'});
+				};
+			}, {offset: scrollOffset });
+		});
 
 		$('.backtoTop').on('click', function(e){
 			e.preventDefault();

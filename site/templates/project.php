@@ -3,18 +3,14 @@
   <main class="main" role="main">
     <div class="container-fluid menu-offset">
       <div class="row">
-        <div class="col-md-2" id="work-sidebar">
+        <div class="col-md-3" id="work-sidebar">
           <div id="info-wrap">
             <div class="col-md-12" id="page-title">
               <h1 class="up"><?php echo $page->title()->html() ?></h1>
               <h3 class="up"><?php echo $page->disciplines() ?></h3>
             </div>
             <div class="col-md-12" id="work-desc">
-              <div id="viewport">
-                <div id="contentScroll">
-                  <?php echo $page->text()->kirbytext() ?>
-                </div>
-              </div>
+              <?php echo $page->text()->kirbytext() ?>
             </div>
             <div class="work-nav-wrap">
               <h6 class="up">Browse Projects</h6>
@@ -44,7 +40,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-10" id="work-detail">
+        <div class="col-md-9" id="work-detail">
           <div class="col-md-12" id="logo"><img src="<?php echo $page->logo() ?>"></div>
             <div class="col-md-12" id="stats">
               <div class="col-md-4" id="canvas-holder2">

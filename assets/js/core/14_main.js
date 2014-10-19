@@ -15,22 +15,26 @@
 	         contentAnimation(); // continue the queue
 	    });
 
+	    if($('html').hasClass('lt-ie10')){
+	    	
+	    } else {	    	
+	    	$('a:not(.voidFade)').on('click', function(){
+	    		$('body').removeClass('loaded');
 
-	    $('a:not(.voidFade)').on('click', function(){
-		    $('body').removeClass('loaded');
+	    		var href = $(this).attr('href');
 
-		    var href = $(this).attr('href');
+	    		setTimeout(function(){window.location = href}, 1500);
+	    		return false;
+	    	});
 
-	    	setTimeout(function(){window.location = href}, 1500);
-	    	return false;
-	    });
+	    	$('.voidFade.downloadLink').on('click', function(){
+	    		var href = $(this).attr('href');
 
-	    $('.voidFade.downloadLink').on('click', function(){
-		    var href = $(this).attr('href');
+	    		setTimeout(function(){window.location = href}, 2500);
+	    		return false;
+	    	});
+	    }
 
-	    	setTimeout(function(){window.location = href}, 2500);
-	    	return false;
-	    });
 
 		var menuIcon  = Snap('#menuIcon')
 		,   line1     = menuIcon.select('#line1')

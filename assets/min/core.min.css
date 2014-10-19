@@ -1381,7 +1381,7 @@ svg {
     line-height: 1.75em;
   }
   .menu-offset {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 0;
     padding-left: 0;
     border-left: none;
@@ -1403,7 +1403,7 @@ svg {
   height: 100%;
   background-color: #0b0c1c;
   top: 0;
-  left: -50px;
+  left: -100px;
   z-index: 10;
   opacity: 0;
   -webkit-transition: all 0.45s cubic-bezier(1, 0, 0, 1);
