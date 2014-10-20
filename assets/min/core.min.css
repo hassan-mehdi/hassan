@@ -1207,7 +1207,7 @@ svg {
 .form-wrapper {
   position: relative;
 }
-.form-wrapper #loader-shape {
+.form-wrapper .loader-shape-wrapper {
   display: none;
   position: absolute;
   top: 45%;

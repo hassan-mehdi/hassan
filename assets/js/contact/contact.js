@@ -49,7 +49,7 @@
         });
 
         $( document ).ajaxComplete(function(){
-        	$('#loader-shape').fadeOut('slow');
+        	$('.loader-shape-wrapper').fadeOut('slow');
             $('.form-inner').fadeOut('fast');
             $('#contact-form').html('<h1 class="up">Job done. Thanks for the message!</h1><h2 class="up lite"><a href="/">Back to home</a></h2>');
         });
