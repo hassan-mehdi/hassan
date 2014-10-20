@@ -6,7 +6,7 @@ Disciplines: Design & Frontend
 
 ----
 
-Logo: http://localhost/hassan/content/2-projects/imw/imw-logo.png
+Logo: /content/2-projects/imw/imw-logo.png
 
 ----
 
@@ -39,12 +39,12 @@ I decided to use strong flat colours coupled with a simple san-serif and aspirat
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/100_IMW-homepage-v2.jpg"/>
+						<img src="/assets/img/work/100_IMW-homepage-v2.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/101_IMW-about-us.jpg"/>
+						<img src="/assets/img/work/101_IMW-about-us.jpg"/>
 					</div>
 				</div>
 			</div>

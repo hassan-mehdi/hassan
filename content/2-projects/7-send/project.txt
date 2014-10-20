@@ -6,7 +6,7 @@ Disciplines: design & frontend
 
 ----
 
-Logo: http://localhost/hassan/content/2-projects/send/send-logo.png
+Logo: /content/2-projects/send/send-logo.png
 
 ----
 
@@ -39,28 +39,28 @@ The final design concentrates on typography, iconography and a simplistic UI. Ta
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/100-A-Send-Public-Homepage-v2.jpg"/>
+						<img src="/assets/img/work/100-A-Send-Public-Homepage-v2.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-8">
-						<img src="/hassan/assets/img/work/100-A-Send-Public-Homepage-tablet.jpg"/>
+						<img src="/assets/img/work/100-A-Send-Public-Homepage-tablet.jpg"/>
 					</div>
 					<div class="col-md-4">
-						<img src="/hassan/assets/img/work/100-A-Send-Homepage-mobile.jpg"/>
+						<img src="/assets/img/work/100-A-Send-Homepage-mobile.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<img src="/hassan/assets/img/work/101-A-Send-Searchresults-mobile.jpg"/>
+						<img src="/assets/img/work/101-A-Send-Searchresults-mobile.jpg"/>
 					</div>
 					<div class="col-md-8">
-						<img src="/hassan/assets/img/work/101-A-Send-Searchresults-tablet.jpg"/>
+						<img src="/assets/img/work/101-A-Send-Searchresults-tablet.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/101-C-Send-content-detail-video.jpg"/>
+						<img src="/assets/img/work/101-C-Send-content-detail-video.jpg"/>
 					</div>
 				</div>
 			</div>

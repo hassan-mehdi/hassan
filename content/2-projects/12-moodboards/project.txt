@@ -6,7 +6,7 @@ Disciplines: design
 
 ----
 
-Logo: http://localhost/hassan/content/2-projects/moodboards/moodboard-icon.png
+Logo: /content/2-projects/moodboards/moodboard-icon.png
 
 ----
 
@@ -39,32 +39,32 @@ I often prepare several moodboards so the client has options, Usually taking a s
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/100_LIFE-Moodboard-v2.jpg"/>
+						<img src="/assets/img/work/100_LIFE-Moodboard-v2.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/Moodboard-1.jpg"/>
+						<img src="/assets/img/work/Moodboard-1.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/Moodboard-2.jpg"/>
+						<img src="/assets/img/work/Moodboard-2.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/Moodboard-11.jpg"/>
+						<img src="/assets/img/work/Moodboard-11.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/Moodboard-21.jpg"/>
+						<img src="/assets/img/work/Moodboard-21.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/Moodboard-31.jpg"/>
+						<img src="/assets/img/work/Moodboard-31.jpg"/>
 					</div>
 				</div>
 			</div>

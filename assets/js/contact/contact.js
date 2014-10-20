@@ -42,7 +42,7 @@
 			}
 
 			loader();
-			$('#loader-shape').delay(1000).queue(function( loaderDelay ) {
+			$('.loader-shape-wrapper').delay(1000).queue(function( loaderDelay ) {
 		         $(this).fadeIn('slow');
 		         loaderDelay();
 		    });			
@@ -50,7 +50,7 @@
 
         $( document ).ajaxComplete(function(){
         	$('.loader-shape-wrapper').fadeOut('slow');
-            $('.form-inner').fadeOut('fast');
+            $('.form-inner').fadeOut('slow');
             $('#contact-form').html('<h1 class="up">Job done. Thanks for the message!</h1><h2 class="up lite"><a href="/">Back to home</a></h2>');
         });
 	});

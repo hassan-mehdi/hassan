@@ -6,7 +6,7 @@ Disciplines: design
 
 ----
 
-Logo: http://localhost/hassan/content/2-projects/6c/6c-logo.png
+Logo: /content/2-projects/6c/6c-logo.png
 
 ----
 
@@ -37,20 +37,20 @@ Text: 6C was a concept design for a online library system where by users, in thi
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/109-6c-homepage.jpg"/>
+						<img src="/assets/img/work/109-6c-homepage.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/114-6c-members-homepage.jpg"/>
+						<img src="/assets/img/work/114-6c-members-homepage.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/hassan/assets/img/work/110-6c-knowledge.jpg"/>
+						<img src="/assets/img/work/110-6c-knowledge.jpg"/>
 					</div>
 					<div class="col-md-6">
-						<img src="/hassan/assets/img/work/113-6c-knowledge-detail-options.jpg"/>
+						<img src="/assets/img/work/113-6c-knowledge-detail-options.jpg"/>
 					</div>
 				</div>
 			</div>

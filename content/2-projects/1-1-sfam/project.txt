@@ -15,35 +15,35 @@ Disciplines: design & frontend
 Work: <div class="col-md-12" id="designs">
             <div class="row">
               <div class="col-md-12">
-                <img src="/hassan/assets/img/work/100a-SFAM-Homepage.jpg"/>
+                <img src="/assets/img/work/100a-SFAM-Homepage.jpg"/>
               </div>
             </div>
             <div class="row">
               <div class="col-md-4">
-                <img src="/hassan/assets/img/work/100a-SFAM-News-section-page.jpg"/>
+                <img src="/assets/img/work/100a-SFAM-News-section-page.jpg"/>
               </div>
               <div class="col-md-8">
-                <img src="/hassan/assets/img/work/103-SFAM-Standard.jpg"/>
+                <img src="/assets/img/work/103-SFAM-Standard.jpg"/>
               </div>
             </div>
             <div class="row">
               <div class="col-md-12">
-                <img src="/hassan/assets/img/work/101-SFAM-News.jpg"/>
+                <img src="/assets/img/work/101-SFAM-News.jpg"/>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6">
-                <img src="/hassan/assets/img/work/103-SFAM-Standard-grid.jpg"/>
+                <img src="/assets/img/work/103-SFAM-Standard-grid.jpg"/>
               </div>
               <div class="col-md-6">
-                <img src="/hassan/assets/img/work/100b-SFAM-Homepage.jpg"/>
+                <img src="/assets/img/work/100b-SFAM-Homepage.jpg"/>
               </div>
             </div>
           </div>
 
 ----
 
-Logo: http://localhost/hassan/content/2-projects/1-1-sfam/sfam-logo.png
+Logo: /content/2-projects/1-1-sfam/sfam-logo.png
 
 ----
 

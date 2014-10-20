@@ -18,7 +18,7 @@
 									</g>
 								</svg>
 							</div>
-							<form id="contact-form" method="post" action="http://localhost/hassan/process.php">
+							<form id="contact-form" method="post" action="/process.php">
 								<div class="form-inner">
 									<div class="row">
 										<div class="col-md-12">

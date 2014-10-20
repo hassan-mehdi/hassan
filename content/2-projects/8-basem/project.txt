@@ -6,7 +6,7 @@ Disciplines: design
 
 ----
 
-Logo: http://localhost/hassan/content/2-projects/basem/basem-logo.png
+Logo: /content/2-projects/basem/basem-logo.png
 
 ----
 
@@ -39,20 +39,20 @@ Primarily as the designer on the project I also wanted to give BASEM plenty of s
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/100-BASEM-Homepage.jpg"/>
+						<img src="/assets/img/work/100-BASEM-Homepage.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/hassan/assets/img/work/103-BASEM-Subpage.jpg"/>
+						<img src="/assets/img/work/103-BASEM-Subpage.jpg"/>
 					</div>
 					<div class="col-md-6">
-						<img src="/hassan/assets/img/work/108-BASEM-EventsListings.jpg"/>
+						<img src="/assets/img/work/108-BASEM-EventsListings.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/125-BASEM-BASEMtoday-listings.jpg"/>
+						<img src="/assets/img/work/125-BASEM-BASEMtoday-listings.jpg"/>
 					</div>
 				</div>
 			</div>

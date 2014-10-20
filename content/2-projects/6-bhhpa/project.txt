@@ -6,7 +6,7 @@ Disciplines: design
 
 ----
 
-Logo: http://localhost/hassan/content/2-projects/bhhpa/bhhpa-logo.png
+Logo: /content/2-projects/bhhpa/bhhpa-logo.png
 
 ----
 
@@ -39,17 +39,17 @@ As the design in the project I wanted to make something that reflected the large
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/_100-bhhpa-homepage5-1.jpg"/>
+						<img src="/assets/img/work/_100-bhhpa-homepage5-1.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/100-bhhpa-homepage5-4.jpg"/>
+						<img src="/assets/img/work/100-bhhpa-homepage5-4.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/hassan/assets/img/work/100-bhhpa-homepage5-3.jpg"/>
+						<img src="/assets/img/work/100-bhhpa-homepage5-3.jpg"/>
 					</div>
 				</div>
 			</div>
