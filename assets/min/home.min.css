@@ -15,56 +15,27 @@ body {
   text-align: center;
   top: 30%;
 }
-#logo.homeLogo {
+#logo {
   background: url(../img/logo.png) no-repeat center center;
   width: 100%;
   height: 97px;
-  display: inline-block;
-  opacity: 0;
+  display: none;
   cursor: pointer;
   margin: 0;
-  -webkit-animation: logohome 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
-  -moz-animation: logohome 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
-  -o-animation: logohome 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
-  animation: logohome 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
-  /* easeInOutQuart */
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
-}
-/* Chrome, Safari, Opera */
-@-webkit-keyframes logohome {
-  from {
-    margin-top: -100px;
-    opacity: 0;
-  }
-  to {
-    margin-top: 0;
-    opacity: 1;
-  }
-}
-/* Standard syntax */
-@keyframes logohome {
-  from {
-    margin-top: -100px;
-    opacity: 0;
-  }
-  to {
-    margin-top: 0;
-    opacity: 1;
-  }
 }
 #splash {
-  display: none;
   width: 100%;
   cursor: pointer;
   padding-top: 240px;
   margin: 0;
 }
 #splash hr {
+  display: none;
   border-top: 1px dotted #696973;
   width: 50%;
 }
 #splash h1 {
+  display: none;
   font-size: 3em;
   color: #ffffff;
   font-weight: 300;
@@ -75,6 +46,7 @@ body {
   margin-bottom: 15px;
 }
 #splash h2 {
+  display: none;
   font-size: 2em;
   color: #ffffff;
   font-weight: 300;
@@ -83,6 +55,7 @@ body {
   text-align: center;
 }
 #splash #enter-arrow {
+  display: none;
   background: url("../img/big-arrow-white-down.png") no-repeat center center;
   width: 100%;
   height: 33px;

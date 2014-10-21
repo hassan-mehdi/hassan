@@ -1204,10 +1204,7 @@ svg {
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
 }
-.form-wrapper {
-  position: relative;
-}
-.form-wrapper .loader-shape-wrapper {
+.loader-shape-wrapper {
   display: none;
   position: absolute;
   top: 180px;
@@ -1215,6 +1212,9 @@ svg {
   margin: auto;
   right: 0;
   text-align: center;
+}
+.form-wrapper {
+  position: relative;
 }
 .form-wrapper form {
   background: none;

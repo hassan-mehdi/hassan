@@ -49,9 +49,15 @@
         });
 
         $( document ).ajaxComplete(function(){
-        	$('.loader-shape-wrapper').fadeOut('slow');
-            $('.form-inner').fadeOut('slow');
-            $('#contact-form').html('<h1 class="up">Job done. Thanks for the message!</h1><h2 class="up lite"><a href="/">Back to home</a></h2>');
+        	$('.form-inner').fadeOut('slow');
+        	$('.loader-shape-wrapper').delay(500).queue(function( loaderOut ) {
+		         $(this).fadeOut('slow');
+		         loaderOut();
+		    });
+            $('#contact-form').delay(2000).queue(function( confirmDelay ) {
+		         $(this).html('<h1 class="up">Job done. Thanks for the message!</h1><h2 class="up lite"><a href="/">Back to home</a></h2>');
+		         confirmDelay();
+		    });
         });
 	});
 })(jQuery);

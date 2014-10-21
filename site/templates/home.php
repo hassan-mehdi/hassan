@@ -2,16 +2,27 @@
 
 <main class="main" role="main">
 
-	<div id="preloadstats"></div>
+	<div class="loader-shape-wrapper">
+		<svg version="1.1" id="loader-shape" width="100px" height="100px" viewBox="0 0 100 100">
+			<g>
+				<path fill="#747582" d="M50,0C22.385,0,0,22.385,0,50c0,27.615,22.385,50,50,50c27.615,0,50-22.386,50-50C100,22.385,77.614,0,50,0
+				z M50,97.874C23.559,97.874,2.125,76.44,2.125,50C2.125,23.559,23.559,2.125,50,2.125c26.44,0,47.875,21.434,47.875,47.874
+				C97.874,76.44,76.439,97.874,50,97.874z"></path>
+			</g>
+			<g id="progressor">
+				<path fill="#FFFFFF" d="M2.125,50C2.125,23.559,23.559,2.125,50,2.125h0V0h0C22.385,0,0,22.385,0,50v0L2.125,50L2.125,50z"></path>
+			</g>
+		</svg>
+	</div>
 	<div id="bgvideo"></div>
 	<div class="container-fluid">
 	    <div class="row" id="splash">
 	        <div class="col-md-12">
 	            <div id="logo"></div>
-	            <hr>
-	            <h1 class="up">DESIGN & FRONTEND</h1>
-	            <h2 class="up">find out more about me and what i can do</h2>
-	            <div id="enter-arrow"></div>
+	            <hr class="intro">
+	            <h1 class="up intro">DESIGN & FRONTEND</h1>
+	            <h2 class="up intro">find out more about me and what i can do</h2>
+	            <div id="enter-arrow" class="intro"></div>
 	        </div>
 	    </div>
 	    <div class="row" id="home-menu">
