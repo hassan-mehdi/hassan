@@ -10,8 +10,7 @@ module.exports = function(grunt) {
 					'assets/min/work-detail.min.js': ['assets/js/work/work-detail/*.js'],
 					'assets/min/about.min.js': ['assets/js/about/*.js'],
 					'assets/min/contact.min.js': ['assets/js/contact/*.js'],
-					'assets/min/standard.min.js': ['assets/js/standard/*.js'],
-					'assets/min/fallbacks/ie9.min.js': ['assets/js/fallbacks/ie9/*.js']
+					'assets/min/standard.min.js': ['assets/js/standard/*.js']
 				}
 			}
 		},
@@ -33,7 +32,7 @@ module.exports = function(grunt) {
 
 		watch: {
 			js: {
-				files: ['assets/js/core/*.js', 'assets/js/home/*.js', 'assets/js/work/*.js', 'assets/js/work/work-detail/*.js', 'assets/js/about/*.js', 'assets/js/contact/*.js', 'assets/js/standard/*.js', 'assets/js/fallbacks/ie9/*.js'],
+				files: ['assets/js/core/*.js', 'assets/js/home/*.js', 'assets/js/work/*.js', 'assets/js/work/work-detail/*.js', 'assets/js/about/*.js', 'assets/js/contact/*.js', 'assets/js/standard/*.js'],
 				tasks: ['uglify']
 			},
 

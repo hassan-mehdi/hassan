@@ -13,14 +13,14 @@
 					</ul>
 				</div>
 				<div class="waypoint">
-					<section data-stellar-ratio="1" id="about">
+					<section data-stellar-ratio="0" id="about">
 						<div class="fade fadeIn">
 							<h1 class="up">HI, I'M HASSAN</h1>
 							<h2 class="up lite">I AM A WEB DESIGNER AND FRONTEND DEVELOPER</h2>
 						</div>
 						<img src="<?php echo $site->url() ?>/assets/img/me.jpg" alt="picture of me">
 					</section>
-					<section class="waypoint" data-stellar-ratio="2.5" id="experience">
+					<section class="waypoint" data-stellar-ratio="1.5" id="experience">
 						<div class="row">
 							<div class="col-md-12">
 								<h2 class="up">I am a designer who has a passion for code</h2>
