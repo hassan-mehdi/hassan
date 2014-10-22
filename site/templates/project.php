@@ -17,13 +17,13 @@
               <nav class="work-nav">
                 <?php if($page->hasPrev()): ?>
                   <a class="<?php if($page->hasNext() == 0) echo 'no-next'; ?> work-nav-prev" href="<?php echo $page->prev()->url() ?>">
-                    <img class="work-nav-prev-icon" src="/hassan/assets/img/svg/prev-arrow-icon.svg">
+                    <img class="work-nav-prev-icon" src="/assets/img/svg/prev-arrow-icon.svg">
                     <h5 class="work-nav-label-prev up">Prev</h5>
                   </a>
                 <?php endif ?>
                 <?php if($page->hasNext()): ?>
                   <a class="<?php if($page->hasPrev() == 0) echo 'no-prev'; ?> work-nav-next" href="<?php echo $page->next()->url() ?>">
-                     <img class="work-nav-next-icon" src="/hassan/assets/img/svg/next-arrow-icon.svg">
+                     <img class="work-nav-next-icon" src="/assets/img/svg/next-arrow-icon.svg">
                      <h5 class="work-nav-label-next up">Next</h5>
                   </a>
                 <?php endif ?>

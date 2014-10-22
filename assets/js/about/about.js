@@ -125,7 +125,7 @@
 				$('#experience .row').css({'opacity':'1'});
 				$('#experience').addClass('mobile-response')
 			};
-		},{offset: -100});
+		},{offset: -300});
 
 		var windowHeight = $(window).height();
 

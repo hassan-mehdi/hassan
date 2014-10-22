@@ -54,3 +54,20 @@ h1, h2, h3, h4, h5, h6, p, a{
 		}
 	}
 }
+
+@media all and (max-width: 800px){
+	.big-list, .big-list.half-col{
+		width: 100%;
+		float: left;
+		display: inline-block;
+
+		li{
+			width: 100%;
+			padding: 10px 0;
+			margin: 0;
+			min-height: initial;
+			border-left: 0;
+			text-align: left;
+		}
+	}
+}

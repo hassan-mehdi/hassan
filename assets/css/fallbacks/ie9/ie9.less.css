@@ -1,0 +1,4 @@
+.no-cssanimations #logo,
+.no-cssanimations #bgvideo {
+  opacity: 1!important;
+}

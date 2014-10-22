@@ -22,8 +22,8 @@
     <?php if(isset($css)) echo css($css) ?>
 </head>
 <body>
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <!--[if lt IE 9]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. This site is not compatible with Internet Explorer 7 or Internet Explorer 8. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
 <?php snippet('menu') ?>
