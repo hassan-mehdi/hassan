@@ -154,7 +154,7 @@
 
 		var shapeMatrix = new Snap.Matrix();
 			shapeMatrix.scale(1,1);
-			shapeMatrix.translate(120,-30);
+			shapeMatrix.translate(180,-30);
 			shapeMatrix.rotate(-270); 
 
 		var shapeMatrix2 = new Snap.Matrix();

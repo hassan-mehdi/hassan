@@ -72,7 +72,7 @@ body {
     height: 600px;
   }
 }
-@media all and (max-width: 639px) {
+@media all and (max-width: 560px) {
   .container-fluid .col-md-4 {
     height: auto;
   }

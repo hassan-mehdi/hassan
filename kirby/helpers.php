@@ -42,7 +42,7 @@ function css($url, $media = null) {
 
   return html::tag('link', null, array(
     'rel'   => 'stylesheet',
-    'href'  => url($url),
+    'href'  => $url,
     'media' => $media
   ));
 
@@ -76,7 +76,8 @@ function js($src, $async = false) {
   }
 
   return html::tag('script', '', array(
-    'src'   => url($src),
+    'src' => $src,
+  // 'src' => url($src),
     'async' => $async
   ));
 

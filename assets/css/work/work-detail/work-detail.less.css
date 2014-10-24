@@ -34,13 +34,21 @@ body {
   margin-right: 10px;
 }
 #work-detail #designs {
+  min-height: 500px;
   padding: 15px;
   background: #D7D7D7;
   text-align: center;
+  -webkit-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -moz-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -ms-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
 }
 #work-detail #designs img {
+  opacity: 0;
   padding: 20px 15px;
   max-width: 100%;
+  min-height: 500px;
 }
 #info-wrap .col-md-12 {
   padding: 15px;
@@ -132,7 +140,7 @@ body {
   -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
   transition: all 0.5s cubic-bezier(1, 0, 0, 1);
 }
-@media all and (max-width: 800px) {
+@media all and (max-width: 991px) {
   .row {
     margin: 0;
   }
@@ -166,7 +174,7 @@ body {
     padding: 0;
   }
 }
-@media all and (max-width: 639px) {
+@media all and (max-width: 560px) {
   #work-sidebar .work-nav-wrap {
     margin-top: 60px;
   }

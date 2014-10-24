@@ -60,7 +60,7 @@
 				$(this).fadeOut(200);
 				$('#splash').css('opacity','0');
 			}
-		}, { offset: -50 });
+		}, { offset: -150 });
 
 		$('#splash').click(function(){
 			$('html,body').animate({
@@ -74,14 +74,14 @@
 			} else if (direction2 === 'down'){
 				$(this).css({'background':'#191a2c','opacity':'1'});
 			};
-		}, {offset: 50});
+		}, { offset: 150 });
 
 		$('.row').css({'height' : windowHeight});
 
 		$('.row').windows({
             snapping: true,
-            snapSpeed: 800,
-            snapInterval: 3000
+            snapSpeed: 200,
+            snapInterval: 1000
         });
 
         $('.option-link').click(function(){

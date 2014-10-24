@@ -43,36 +43,36 @@ As the designer I incorporated earthy colours, contrasting colours and mixed fon
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-8">
-						<img src="/assets/img/work/100-BALI-Public-homepage-2.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-BALI-Public-homepage-2.jpg"/>
 					</div>
 					<div class="col-md-4">
-						<img src="/assets/img/work/100-BALI-Public-Home.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-BALI-Public-Home.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<img src="/assets/img/work/102-BALI-Public-search-2.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/102-BALI-Public-search-2.jpg"/>
 					</div>
 					<div class="col-md-8">
-						<img src="/assets/img/work/102-BALI-Public-search.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/102-BALI-Public-search.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/assets/img/work/107-BALI-Industry-homepage1.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/107-BALI-Industry-homepage1.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/assets/img/work/108-BALI-Industry-whyjoin1.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/108-BALI-Industry-whyjoin1.jpg"/>
 					</div>
 					<div class="col-md-6">
-						<img src="/assets/img/work/106-BALI-Public-standard-with-banner.jpg">
+						<img class="lazy" data-echo="/assets/img/work/106-BALI-Public-standard-with-banner.jpg">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/assets/img/work/111a-BALI-Industry-member-homepage.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/111a-BALI-Industry-member-homepage.jpg"/>
 					</div>
 				</div>
 			</div>

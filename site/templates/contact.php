@@ -1,4 +1,4 @@
-<?php snippet('header', array('css' => 'assets/min/contact.min.css')) ?>
+<?php snippet('header', array('css' => '/assets/min/contact.min.css')) ?>
 <main class="main" role="main" id="main">
 	<div class="container-fluid menu-offset">
 		<div class="row">

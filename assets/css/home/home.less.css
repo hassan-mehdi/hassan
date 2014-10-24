@@ -17,9 +17,9 @@ body {
   top: 30%;
 }
 #logo {
-  background: url(../img/logo.png) no-repeat center center;
+  background: url(../img/svg/logo.svg) no-repeat center center;
   width: 100%;
-  height: 97px;
+  height: 200px;
   display: none;
   cursor: pointer;
   margin: 0;
@@ -67,12 +67,14 @@ body {
   -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
   transition: all 0.5s cubic-bezier(1, 0, 0, 1);
 }
-#splash .col-md-12:hover {
+#splash .col-md-12 {
   -webkit-transition: all 1s cubic-bezier(1, 0, 0, 1);
   -moz-transition: all 1s cubic-bezier(1, 0, 0, 1);
   -ms-transition: all 1s cubic-bezier(1, 0, 0, 1);
   -o-transition: all 1s cubic-bezier(1, 0, 0, 1);
   transition: all 1s cubic-bezier(1, 0, 0, 1);
+}
+#splash .col-md-12:hover {
   opacity: 0.7;
   padding-top: 20px;
 }
@@ -150,7 +152,7 @@ body {
 #home-menu .option a h3 {
   font-weight: 300;
   margin-top: 30%;
-  color: #44455c;
+  color: #ffffff;
   font-size: 3em;
   display: inline-block;
   text-transform: uppercase;
@@ -167,7 +169,7 @@ body {
     background-size: contain;
   }
   #splash {
-    padding-top: 80px;
+    padding-top: 30px;
   }
   #splash h1 {
     font-size: 2em;
@@ -190,7 +192,7 @@ body {
   #home-menu .option {
     width: 100%!important;
     height: 33.333%;
-    padding-top: 7%;
+    padding: 10% 0;
     display: inline-block;
     border-left: 0;
     border-bottom: 1px solid #1e1f32;

@@ -306,10 +306,16 @@ a {
   .container-fluid section#experience.mobile-response .about-arrow-wrapper {
     display: none;
   }
+  .container-fluid section#philosophy .col-md-6.left {
+    height: 400px;
+  }
   .container-fluid section#philosophy .col-md-6.left #responsive-screens {
+    top: 0;
     width: 100%;
+    height: 400px;
   }
   .container-fluid section#philosophy .col-md-6.left #responsive-shape {
+    top: 15px;
     left: -100px;
     width: 100%;
   }

@@ -39,20 +39,20 @@ Primarily as the designer on the project I also wanted to give BASEM plenty of s
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/assets/img/work/100-BASEM-Homepage.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-BASEM-Homepage.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/assets/img/work/103-BASEM-Subpage.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/103-BASEM-Subpage.jpg"/>
 					</div>
 					<div class="col-md-6">
-						<img src="/assets/img/work/108-BASEM-EventsListings.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/108-BASEM-EventsListings.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/assets/img/work/125-BASEM-BASEMtoday-listings.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/125-BASEM-BASEMtoday-listings.jpg"/>
 					</div>
 				</div>
 			</div>

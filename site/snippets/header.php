@@ -8,18 +8,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
     <link rel="shortcut icon" href="/favicon.ico?v2" type="imge/x-icon">
     <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
     <meta name="description" content="<?php echo $site->description()->html() ?>">
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <!--[if IE 9]>
         <?php echo css('assets/min/fallbacks/ie9.min.css') ?>
     <![endif]-->
-    <?php echo js('assets/js/modernizr.min.js') ?>
-    <?php echo css('assets/min/core.min.css') ?>
+    <?php echo css('/assets/min/core.min.css') ?>
     <?php if(isset($css)) echo css($css) ?>
+    <?php echo js('/assets/js/modernizr.min.js') ?>
 </head>
 <body>
   <!--[if lt IE 9]>

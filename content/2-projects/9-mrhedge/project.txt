@@ -37,18 +37,18 @@ Text: Mr. Hedge was a concept design for a microsite, An existing client wanted 
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/assets/img/work/100-MrHedge-Home-A.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-MrHedge-Home-A.jpg"/>
 					</div>
 					<div class="col-md-6">
-						<img src="/assets/img/work/100-MrHedge-Home-D.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-MrHedge-Home-D.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/assets/img/work/101-MrHedge-Home-B.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/101-MrHedge-Home-B.jpg"/>
 					</div>
 					<div class="col-md-6">
-						<img src="/assets/img/work/100-MrHedge-Home-C.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-MrHedge-Home-C.jpg"/>
 					</div>
 				</div>
 			</div>

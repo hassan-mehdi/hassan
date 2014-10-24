@@ -11,12 +11,12 @@
 
 	Response.action(function(e){
 		
-		if(Response.band( 640, 800 )){
+		if(Response.band( 561, 800 )){
 			$('html').addClass('tablet');
 			$('html').removeClass('mobile');
 		}
 
-		if(Response.band( 0, 639 )){
+		if(Response.band( 0, 560 )){
 			$('html').removeClass('tablet');
 			$('html').addClass('mobile');
 

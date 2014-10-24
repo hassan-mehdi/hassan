@@ -31,10 +31,10 @@
               <div class="page-tools">
                 <a href="#" class="up voidFade backtoTop">Back to the top</a>
                 <div class="share-tools">
-                  <a href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=http%3A%2F%2Fwww.addthis.com&pubid=ra-54328e2453ff9738&ct=1&title=AddThis%20-%20Get%20likes%2C%20get%20shares%2C%20get%20followers&pco=tbxnj-1.0" target="_blank"><img src="/hassan/assets/img/facebook.png" border="0" alt="Facebook"/></a>
-                  <a href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=http%3A%2F%2Fwww.addthis.com&pubid=ra-54328e2453ff9738&ct=1&title=AddThis%20-%20Get%20likes%2C%20get%20shares%2C%20get%20followers&pco=tbxnj-1.0" target="_blank"><img src="/hassan/assets/img/twitter.png" border="0" alt="Twitter"/></a>
-                  <a href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=http%3A%2F%2Fwww.addthis.com&pubid=ra-54328e2453ff9738&ct=1&title=AddThis%20-%20Get%20likes%2C%20get%20shares%2C%20get%20followers&pco=tbxnj-1.0" target="_blank"><img src="/hassan/assets/img/linkedin.png" border="0" alt="LinkedIn"/></a>
-                  <a href="https://api.addthis.com/oexchange/0.8/forward/google_plusone_share/offer?url=http%3A%2F%2Fwww.addthis.com&pubid=ra-54328e2453ff9738&ct=1&title=AddThis%20-%20Get%20likes%2C%20get%20shares%2C%20get%20followers&pco=tbxnj-1.0" target="_blank"><img src="/hassan/assets/img/google+.png" border="0" alt="Google+"/></a>
+                  <a href="https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=http%3A%2F%2Fwww.addthis.com&pubid=ra-54328e2453ff9738&ct=1&title=AddThis%20-%20Get%20likes%2C%20get%20shares%2C%20get%20followers&pco=tbxnj-1.0" target="_blank"><img src="/assets/img/facebook.png" border="0" alt="Facebook"/></a>
+                  <a href="https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=http%3A%2F%2Fwww.addthis.com&pubid=ra-54328e2453ff9738&ct=1&title=AddThis%20-%20Get%20likes%2C%20get%20shares%2C%20get%20followers&pco=tbxnj-1.0" target="_blank"><img src="/assets/img/twitter.png" border="0" alt="Twitter"/></a>
+                  <a href="https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=http%3A%2F%2Fwww.addthis.com&pubid=ra-54328e2453ff9738&ct=1&title=AddThis%20-%20Get%20likes%2C%20get%20shares%2C%20get%20followers&pco=tbxnj-1.0" target="_blank"><img src="/assets/img/linkedin.png" border="0" alt="LinkedIn"/></a>
+                  <a href="https://api.addthis.com/oexchange/0.8/forward/google_plusone_share/offer?url=http%3A%2F%2Fwww.addthis.com&pubid=ra-54328e2453ff9738&ct=1&title=AddThis%20-%20Get%20likes%2C%20get%20shares%2C%20get%20followers&pco=tbxnj-1.0" target="_blank"><img src="/assets/img/google+.png" border="0" alt="Google+"/></a>
                 </div>
               </div>
             </div>

@@ -1345,7 +1345,7 @@ svg {
   z-index: 10;
 }
 
-@media all and (max-width: 639px) {
+@media all and (max-width: 560px) {
   h1 {
     font-size: 2em;
     color: #141524;
@@ -1433,7 +1433,7 @@ svg {
 }
 #menu.menu-active {
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.95;
 }
 #menu #menuIcon-wrap {
   cursor: pointer;
@@ -1474,7 +1474,7 @@ svg {
   padding: 0 15px;
   color: #ffffff;
 }
-@media all and (max-width: 580px) {
+@media all and (max-width: 560px) {
   #logo-home-link {
     display: inline-block;
     float: left;

@@ -41,21 +41,21 @@ Despite the limitations the site also has a lot of rich media content and UI's, 
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/assets/img/work/SCIDEV_homepage_12-pxl8-newsletter.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/SCIDEV_homepage_12-pxl8-newsletter.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/assets/img/work/SCIDEV_article_11.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/SCIDEV_article_11.jpg"/>
 					</div>
 					<div class="col-md-6">
-						<img src="/assets/img/work/SCIDEV_donate_04.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/SCIDEV_donate_04.jpg"/>
 						<div class="row">
 							<div class="col-md-6">
-								<img src="/assets/img/work/SCIDEV_mobile_03.jpg"/>
+								<img class="lazy" data-echo="/assets/img/work/SCIDEV_mobile_03.jpg"/>
 							</div>
 							<div class="col-md-6">
-								<img src="/assets/img/work/SCIDEV_mobile_article_05.jpg"/>
+								<img class="lazy" data-echo="/assets/img/work/SCIDEV_mobile_article_05.jpg"/>
 							</div>
 						</div>
 					</div>

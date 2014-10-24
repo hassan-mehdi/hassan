@@ -14,4 +14,4 @@ Keywords: Kirby,CMS,file-based
 
 ----
 
-Copyright: © (date: Year) (link: http://hassan.xyz text: hassan.xyz) - Built with love using (link: http://getkirby.com text: KirbyCMS)
+Copyright: © (date: Year) (link: https://hassan.xyz text: hassan.xyz) - Built with love using (link: http://getkirby.com text: KirbyCMS)

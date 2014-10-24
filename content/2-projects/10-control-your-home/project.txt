@@ -39,10 +39,10 @@ As the designer in the project I decided to take an infographic approach to the 
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="/assets/img/work/100-tachma-homepage-dropdown-2.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-tachma-homepage-dropdown-2.jpg"/>
 					</div>
 					<div class="col-md-6">
-						<img src="/assets/img/work/100-tachma-findaninstaller.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-tachma-findaninstaller.jpg"/>
 					</div>
 				</div>
 			</div>

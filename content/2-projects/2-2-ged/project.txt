@@ -17,36 +17,36 @@ The site is fully responsive, from mobile to large desktop.
 Work: <div class="col-md-12" id="designs">
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/assets/img/work/100-ASCLGD-HOME-howtogetinvolved.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-ASCLGD-HOME-howtogetinvolved.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<img src="/assets/img/work/100-ASCLGD-HOME-MOBILE.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-ASCLGD-HOME-MOBILE.jpg"/>
 					</div>
 					<div class="col-md-8">
-						<img src="/assets/img/work/100-ASCLGD-HOME-TABLET.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/100-ASCLGD-HOME-TABLET.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<img src="/assets/img/work/106-ASCLGD-DEBATEDETAIL-1.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/106-ASCLGD-DEBATEDETAIL-1.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-8">
-						<img src="/assets/img/work/106-ASCLGD-DEBATEDETAIL-2-TABLET.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/106-ASCLGD-DEBATEDETAIL-2-TABLET.jpg"/>
 					</div>
 					<div class="col-md-4">
-						<img src="/assets/img/work/106-ASCLGD-DEBATEDETAIL-1-MOBILE.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/106-ASCLGD-DEBATEDETAIL-1-MOBILE.jpg"/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<img src="/assets/img/work/105-ASCLGD-DEBATELISTING-MOBILE.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/105-ASCLGD-DEBATELISTING-MOBILE.jpg"/>
 					</div>
 					<div class="col-md-8">
-						<img src="/assets/img/work/104-ASCLGD-MYPROFILE-MESSAGE.jpg"/>
+						<img class="lazy" data-echo="/assets/img/work/104-ASCLGD-MYPROFILE-MESSAGE.jpg"/>
 					</div>
 				</div>
 			</div>
