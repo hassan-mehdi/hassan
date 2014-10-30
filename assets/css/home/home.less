@@ -10,9 +10,9 @@ body{
 	display: none;
 	width: 100%;
 	height: 100%;
-	position: absolute;
 	z-index: -1;
 	background-color: #070918;
+	top: 0;
 }
 
 #preloadstats{
@@ -30,13 +30,29 @@ body{
 	display: none;
 	cursor: pointer;
 	margin: 0;
+	.animate;
+}
+
+main{
+	overflow: hidden;
+}
+
+.container-fluid{
+	padding: 0;
+
+	.row{
+		margin: 0;
+	}
 }
 
 #splash{
 	width: 100%;
 	cursor: pointer;
-	padding-top: 240px;
+	padding-top: 150px;
 	margin: 0;
+	height: 800px;
+	overflow: hidden;
+	position: relative;
 
 	hr{
 		display: none;
@@ -79,29 +95,33 @@ body{
 			}
 		}
 	}
+
+	#introduction{
+		position: absolute;
+		bottom: 200px;
+		width: 100%;
+
+		&.active{
+			bottom: -230px;
+		}
+	}
 }
 
 #home-menu{
-	opacity: 0;
-	background-color: @darkblue;
-	.animate(0.5s);
-
-	&.active{
-		opacity: 1;
-	}
+	width: 100%;
+	display: inline-block;
 
 	.option{
-		background-color: @darkblue;
+		background-color: rgba(8, 10, 25, 0.9);
 		width: 33.333%;
 		border-left: 1px solid @midblue;
-		height: 100%;
 		float: left;
 		display: inline-block;
 		box-sizing:border-box;
 		-moz-box-sizing:border-box;
 		-webkit-box-sizing:border-box;
 		text-align: center;
-		padding-top: 5%;
+		padding: 100px 0;
 		.animate;
 
 		&:first-child{
@@ -135,7 +155,7 @@ body{
 
 			h3{
 				font-weight: 300;
-				margin-top: 30%;
+				margin-top: 50px;
 				color: @white;
 				font-size: 3em;
 				display: inline-block;
@@ -151,10 +171,14 @@ body{
 	#bgvideo{
 		background: url(../video/mobile-bg.jpg) no-repeat 0 0;
 		background-size: contain;
+		position: absolute;
 	}
 
 	#splash{
 		padding-top: 30px;
+		height: 550px;
+		.animate;
+
 		h1{
 			.h1-mobile(@white, 2em);
 			margin: 15px 0;
@@ -167,12 +191,20 @@ body{
 		h2{
 			.h2-mobile(@white, 1.8em, 300);
 		}
+
+		&.active{
+			height: 5px;
+		}
+
+		#introduction{
+			position: static;
+		}
 	}
 
 	#home-menu{
 		.option{
 			width: 100%!important;
-			height: 33.333%;
+			height: auto;
 			padding: 10% 0;
 			display: inline-block;
 			border-left: 0;
@@ -182,7 +214,7 @@ body{
 				svg{
 					height: 120px!important;
 					float: left;
-					margin-right: 30px;
+					margin-right: 15px;
 				}
 
 				h3{

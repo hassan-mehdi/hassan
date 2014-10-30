@@ -2,53 +2,92 @@ Title: GED
 
 ----
 
-Disciplines: Design & Frontend
+Disciplines: Design & Front-end
 
 ----
 
-Text: The Great Education Debate is a public membership site designed to encourage people to discuss the pressing issues of education in the UK. The website would be promoted in schools to encourage children and adults to debate online. The website had to be easy to use, fresh and modern.
+Text: The Great Education Debate is a public membership site designed to encourage people to discuss the pressing issues of education in the UK. The website is promoted in schools to encourage children to debate online. The website had to be easy to use, engaging and modern.
 
-As the designer and front-end developer on the site, I decided to make the site look like a phone app. Taking messaging apps like WhatsApp and Facebook as inspiration I created a debate system where by you could voice an opinion "For", "Against" or "Neutral" and depending on you choice your comment would be on the left, right or center. Coupled with this, the user could also see animated charts for the debate statistics and login using Facebook.
 
-The site is fully responsive, from mobile to large desktop.
+
+As the designer and the front-end developer on the site, I decided to make the site look like a phone app. Taking messaging apps like WhatsApp and Facebook as inspiration I created a debate system where you could voice an opinion "For", "Against" or "Neutral" and depending on you choice your comment would be on the left, right or center. Coupled with this, the user could also see animated charts for the debate statistics and login using Facebook.
+
+
+
+(link: http://www.greateducationdebate.org.uk/ text: Visit website)
 
 ----
 
 Work: <div class="col-md-12" id="designs">
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/100-ASCLGD-HOME-howtogetinvolved.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-4">
+
 						<img class="lazy" data-echo="/assets/img/work/100-ASCLGD-HOME-MOBILE.jpg"/>
+
 					</div>
+
 					<div class="col-md-8">
+
 						<img class="lazy" data-echo="/assets/img/work/100-ASCLGD-HOME-TABLET.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/106-ASCLGD-DEBATEDETAIL-1.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-8">
+
 						<img class="lazy" data-echo="/assets/img/work/106-ASCLGD-DEBATEDETAIL-2-TABLET.jpg"/>
+
 					</div>
+
 					<div class="col-md-4">
+
 						<img class="lazy" data-echo="/assets/img/work/106-ASCLGD-DEBATEDETAIL-1-MOBILE.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-4">
+
 						<img class="lazy" data-echo="/assets/img/work/105-ASCLGD-DEBATELISTING-MOBILE.jpg"/>
+
 					</div>
+
 					<div class="col-md-8">
+
 						<img class="lazy" data-echo="/assets/img/work/104-ASCLGD-MYPROFILE-MESSAGE.jpg"/>
+
 					</div>
+
 				</div>
+
 			</div>
 
 ----

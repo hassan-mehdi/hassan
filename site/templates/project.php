@@ -3,7 +3,7 @@
   <main class="main" role="main">
     <div class="container-fluid menu-offset">
       <div class="row">
-        <div class="col-md-3" id="work-sidebar">
+        <div class="col-md-4" id="work-sidebar">
           <div id="info-wrap">
             <div class="col-md-12" id="page-title">
               <h1 class="up"><?php echo $page->title()->html() ?></h1>
@@ -40,73 +40,23 @@
             </div>
           </div>
         </div>
-        <div class="col-md-9" id="work-detail">
+        <div class="col-md-8" id="work-detail">
           <div class="col-md-12" id="logo"><img src="<?php echo $page->logo() ?>"></div>
             <div class="col-md-12" id="stats">
               <div class="col-md-4" id="canvas-holder2">
                 <canvas id="chart2" width="300px" height="280px"></canvas>
-                <h4 class="up">Discipline Involvement<br>Scale</h4>
+                <h4 class="up">Discipline Involvement<br>Map</h4>
               </div>
 
               <div class="col-md-4" id="canvas-holder">
                 <canvas id="chart1" width="200px" height="280px"></canvas>
-                <h4 class="up"><em>Design</em>FrontEnd<br>Ratio</h4>
+                <h4 class="up"><em>Design</em>Front-End<br>Ratio</h4>
               </div>
 
               <div class="col-md-4" id="canvas-holder3">
                 <canvas id="chart3" width="200px" height="280px"></canvas>
                 <h4 class="up">Overall Project<br>Ownership</h4>
               </div>
-
-              <script>
-
-                var stat1 = {
-                  labels: ["Design", "HTML", "CSS", "JS", "Responsive", "QA/Testing"],
-                  datasets: [
-                  {
-                    label: "My First dataset",
-                    fillColor: "#d9d9d9",
-                    strokeColor: "#d9d9d9",
-                    pointColor: "#0b0c1c",
-                    data: [<?php echo $page->involvement() ?>]
-                  }
-                  ]
-                };
-
-                var stat2 = [
-                  {
-                    value: <?php echo $page->ratio1() ?>,
-                    color:"#0b0c1c"
-                  },
-                  {
-                    value: <?php echo $page->ratio2() ?>,
-                    color:"#d9d9d9"
-                  }
-                ];
-
-                var stat3 = [
-                  {
-                    value: <?php echo $page->ownership1() ?>,
-                    color:"#0b0c1c"
-                  },
-                  {
-                    value: <?php echo $page->ownership2() ?>,
-                    color:"#d9d9d9"
-                  }
-                ];
-
-                window.onload = function(){
-                  window.myRadar = new Chart(document.getElementById("chart2").getContext("2d")).Radar(stat1, {responsive: false, pointLabelFontFamily : "'Oswald','sans-serif'", pointLabelFontSize : 14, showTooltips: false, pointLabelFontStyle : "300"});
-                  
-                  var ctx1 = document.getElementById("chart1").getContext("2d");
-                  window.myPolarArea = new Chart(ctx1).PolarArea(stat2, {responsive:false, scaleShowLabelBackdrop : false, showScale: false, showTooltips: false});
-
-                  var ctx3 = document.getElementById("chart3").getContext("2d");
-                  window.myDoughnut = new Chart(ctx3).Doughnut(stat3, {responsive : false, showTooltips: false});
-                };
-
-              </script>
-
             </div>
           <?php echo $page->work() ?>
         </div>
@@ -115,3 +65,51 @@
   </main>
 
 <?php snippet('footer', array('js' => '/assets/min/work-detail.min.js')) ?>
+<script type="text/javascript">
+$(document).ready(function(){
+  var stat1 = {
+    labels: ["Design", "HTML", "CSS", "JS", "Responsive", "QA/Testing"],
+    datasets: [
+    {
+      label: "My First dataset",
+      fillColor: "#d9d9d9",
+      strokeColor: "#d9d9d9",
+      pointColor: "#0b0c1c",
+      data: [<?php echo $page->involvement() ?>]
+    }
+    ]
+  };
+
+  var stat2 = [
+  {
+    value: <?php echo $page->ratio1() ?>,
+    color:"#0b0c1c"
+  },
+  {
+    value: <?php echo $page->ratio2() ?>,
+    color:"#d9d9d9"
+  }
+  ];
+
+  var stat3 = [
+  {
+    value: <?php echo $page->ownership1() ?>,
+    color:"#0b0c1c"
+  },
+  {
+    value: <?php echo $page->ownership2() ?>,
+    color:"#d9d9d9"
+  }
+  ];
+
+  window.onload = function(){
+    window.myRadar = new Chart(document.getElementById("chart2").getContext("2d")).Radar(stat1, {responsive: false, pointLabelFontFamily : "'Oswald','sans-serif'", pointLabelFontSize : 14, showTooltips: false, pointLabelFontStyle : "300"});
+
+    var ctx1 = document.getElementById("chart1").getContext("2d");
+    window.myPolarArea = new Chart(ctx1).PolarArea(stat2, {responsive:false, scaleShowLabelBackdrop : false, showScale: false, showTooltips: false});
+
+    var ctx3 = document.getElementById("chart3").getContext("2d");
+    window.myDoughnut = new Chart(ctx3).Doughnut(stat3, {responsive : false, showTooltips: false});
+  };
+});
+</script>

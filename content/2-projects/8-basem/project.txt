@@ -6,7 +6,7 @@ Disciplines: design
 
 ----
 
-Logo: /content/2-projects/basem/basem-logo.png
+Logo: /content/2-projects/8-basem/basem-logo.png
 
 ----
 
@@ -30,29 +30,50 @@ Ownership2: 600
 
 ----
 
-Text: The British Association of Sport Medicine is a the association for sport medical practitioners. With closer ties to medicine science than sport science, the organisation wanted to convey the idea of assurance, liveliness and accessibility. Taking the Union flag as inspiration the websites primary colour palette is red white and blue.
+Text: With closer ties to medicine science than sport science, The British Association of Sport & Exercise Medicine wanted to convey the idea of assurance, liveliness and accessibility. Taking the Union flag as inspiration the websites primary colour palette is red white and blue.
 
-Primarily as the designer on the project I also wanted to give BASEM plenty of space to feature content be it the multi-panel banner on the homepage or animated section homepages and cms editable buttons/call to actions.
+As the designer on the project, I also wanted to give BASEM plenty of space to feature content so there are multi-panel banners on the homepage, animated section homepages and cms editable buttons/calls to action.
+
+(link: # text: Pending Go Live)
 
 ----
 
 Work: <div class="col-md-12" id="designs">
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/100-BASEM-Homepage.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-6">
+
 						<img class="lazy" data-echo="/assets/img/work/103-BASEM-Subpage.jpg"/>
+
 					</div>
+
 					<div class="col-md-6">
+
 						<img class="lazy" data-echo="/assets/img/work/108-BASEM-EventsListings.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/125-BASEM-BASEMtoday-listings.jpg"/>
+
 					</div>
+
 				</div>
+
 			</div>

@@ -99,14 +99,6 @@ a {
   border-bottom: 1px solid #1e1f32;
   text-align: center;
 }
-.container-fluid section#experience .row {
-  opacity: 0;
-  -webkit-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  -moz-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  -ms-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-}
 .container-fluid section#experience h3 {
   color: #b1b3c3;
   margin-bottom: 30px;
@@ -272,7 +264,7 @@ a {
   top: 0;
   left: 0;
 }
-@media all and (max-width: 800px) {
+@media all and (max-width: 991px) {
   .about-menu {
     display: none;
   }
@@ -311,12 +303,13 @@ a {
   }
   .container-fluid section#philosophy .col-md-6.left #responsive-screens {
     top: 0;
-    width: 100%;
     height: 400px;
+    left: 0;
+    width: auto;
   }
   .container-fluid section#philosophy .col-md-6.left #responsive-shape {
     top: 15px;
-    left: -100px;
+    left: 0;
     width: 100%;
   }
   .container-fluid section#philosophy .col-md-6.right {
@@ -337,5 +330,17 @@ a {
     min-height: initial;
     border-left: 0;
     text-align: left;
+  }
+}
+@media all and (max-width: 560px) {
+  .container-fluid section#philosophy .col-md-6.left #responsive-shape {
+    left: -120px;
+  }
+  .container-fluid section#philosophy .col-md-6.left #responsive-screens {
+    width: 95%;
+  }
+  .container-fluid section#cv-download {
+    padding: 100px 20px 50px;
+    margin-bottom: 50px;
   }
 }

@@ -2,11 +2,11 @@ Title: send
 
 ----
 
-Disciplines: design & frontend
+Disciplines: design & front-end
 
 ----
 
-Logo: /content/2-projects/send/send-logo.png
+Logo: /content/2-projects/7-send/send-logo.png
 
 ----
 
@@ -30,37 +30,64 @@ Ownership2: 800
 
 ----
 
-Text: The SEND gateway is a library system designed for National Association for Special Educational Needs (NASEN) the UK's leading association for Special Educational Needs and Disabilities (SEND) professionals. The core requirement for this site is accessibility, users range from public sector (predominately NHS) professionals, private individuals and the ability to download documents and search via mobile devices with low bandwidth connections.
+Text: The SEND gateway is a library system designed for the National Association for Special Educational Needs (NASEN) the UK's leading association for Special Educational Needs and Disabilities (SEND) professionals. The core requirement for this site is accessibility, users range from public sector (predominately NHS) professionals, private individuals and they need to have the ability to download documents and search via mobile devices, low bandwidth connections and older browsers.
 
 The final design concentrates on typography, iconography and a simplistic UI. Tagging, filtering, adding documents, commenting and many more of the site's functionality had to be accessible, simple and concise in order to meet the user's requirements.
 
 ----
 
 Work: <div class="col-md-12" id="designs">
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/100-A-Send-Public-Homepage-v2.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-8">
+
 						<img class="lazy" data-echo="/assets/img/work/100-A-Send-Public-Homepage-tablet.jpg"/>
+
 					</div>
+
 					<div class="col-md-4">
+
 						<img class="lazy" data-echo="/assets/img/work/100-A-Send-Homepage-mobile.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-4">
+
 						<img class="lazy" data-echo="/assets/img/work/101-A-Send-Searchresults-mobile.jpg"/>
+
 					</div>
+
 					<div class="col-md-8">
+
 						<img class="lazy" data-echo="/assets/img/work/101-A-Send-Searchresults-tablet.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/101-C-Send-content-detail-video.jpg"/>
+
 					</div>
+
 				</div>
+
 			</div>

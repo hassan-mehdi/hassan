@@ -118,11 +118,9 @@
 		$('#about').waypoint(function(direction) {
 			if(direction === 'up'){
 				$(this).css({'opacity':'1'});
-				$('#experience .row').css({'opacity':'0'});
 				$('#experience').removeClass('mobile-response')
 			} else if (direction === 'down'){
 				$(this).css({'opacity':'0'});
-				$('#experience .row').css({'opacity':'1'});
 				$('#experience').addClass('mobile-response')
 			};
 		},{offset: -300});
@@ -131,14 +129,25 @@
 
 		$('.about-height').css({'height':windowHeight});
 
-		$('.waypoint').waypoint(function(){
+		$('.waypoint').waypoint(function(direction){
+		}, {offset: 300});
+
+		$('.waypoint').waypoint(function(direction) {
+		  if (direction === 'down') {
 			var thisID = $(this).attr('id');
 			$('.about-menu ul li').find('a[href="#'+ thisID + '"]').addClass('active');
 			$('.about-menu ul li').find('a').not('a[href="#'+ thisID + '"]').removeClass('active');
+		  }
 		}, {
-			offset: function() {
-				return ( $(this).height() * 0.2 );
-			}
+		  offset: '200px'
+		}).waypoint(function(direction) {
+		  if (direction === 'up') {
+		    var thisID = $(this).attr('id');
+			$('.about-menu ul li').find('a[href="#'+ thisID + '"]').addClass('active');
+			$('.about-menu ul li').find('a').not('a[href="#'+ thisID + '"]').removeClass('active');
+		  }
+		}, {
+		  offset: '-200px'
 		});
 
 		$(window).stellar({
@@ -204,6 +213,17 @@
 
         	$('.download-btn-text').css({'top':'-20px'}).html('<img src="assets/img/svg/peace-out.svg">');
         });
+
+        if($('html').hasClass('lt-ie10')){
+	    	
+	    } else {	    	
+	    	$('.voidFade.downloadLink').on('click', function(){
+	    		var href = $(this).attr('href');
+
+	    		setTimeout(function(){window.location = href}, 2500);
+	    		return false;
+	    	});
+	    }
 
 	});
 })(jQuery);

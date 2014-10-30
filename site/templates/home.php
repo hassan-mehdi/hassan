@@ -17,11 +17,11 @@
 	<div id="bgvideo"></div>
 	<div class="container-fluid">
 	    <div class="row" id="splash">
-	        <div class="col-md-12">
+	        <div class="col-md-12" id="introduction">
 	            <div id="logo"></div>
 	            <hr class="intro">
-	            <h1 class="up intro">DESIGN & FRONTEND</h1>
-	            <h2 class="up intro">find out more about me and what i can do</h2>
+	            <h1 class="up intro">DESIGN & FRONT-END</h1>
+	            <h2 class="up intro">Scroll down to find out more</h2>
 	            <div id="enter-arrow" class="intro"></div>
 	        </div>
 	    </div>

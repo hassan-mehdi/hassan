@@ -6,7 +6,7 @@ Disciplines: design
 
 ----
 
-Logo: /content/2-projects/moodboards/moodboard-icon.png
+Logo: /content/2-projects/12-moodboards/moodboard-icon.png
 
 ----
 
@@ -26,45 +26,76 @@ Ownership1: 300
 
 ----
 
-Ownership2: 200
+Ownership2: 0
 
 ----
 
-Text: Sometimes to sell an idea you have to show the client what you are thinking. I introduced moodboards to my current office, which are basically a tasting menu of styles, colours, imagery and other ideas that we envisage. 
+Text: Sometimes to sell an idea you have to show the client what you are thinking. I introduced moodboards to my current office, to allow clients to make decisions on colours, imagery and other ideas that we envisage without having to produce a actual design.
 
 I often prepare several moodboards so the client has options, Usually taking a single day they are a cheap and effective way of selling an idea and letting the client make design decisions on a macro scale. These are a few of my favourite moodboards.
 
 ----
 
 Work: <div class="col-md-12" id="designs">
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/100_LIFE-Moodboard-v2.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/Moodboard-1.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/Moodboard-2.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/Moodboard-11.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/Moodboard-21.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/Moodboard-31.jpg"/>
+
 					</div>
+
 				</div>
+
 			</div>

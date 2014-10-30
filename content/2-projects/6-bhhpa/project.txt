@@ -6,7 +6,7 @@ Disciplines: design
 
 ----
 
-Logo: /content/2-projects/bhhpa/bhhpa-logo.png
+Logo: /content/2-projects/6-bhhpa/bhhpa-logo.png
 
 ----
 
@@ -30,26 +30,45 @@ Ownership2: 700
 
 ----
 
-Text: The British Holidays & Home Parks Association (BHHPA) is a fast growing membership that is producing a lot of documentation, journals and other publications. Previously there had been a simple site with a list of links to download documents. When appointed, we designed a fully searchable library system with login security, elastic search, favouriting options and also a pdf previewer (see before you download). 
+Text: The British Holidays & Home Parks Association (BHHPA) is a fast growing membership organisation that produces a lot of documentation, journals and other publications. Previously there had been a simple site with an unordered list of links to download documents. When appointed, we designed a fully searchable library system with login security, elastic search, favouriting options and also a pdf previewer.
 
-As the design in the project I wanted to make something that reflected the large vistas and inspiring views the organisation monitors over. As a result each page has a banner of the British Landscape.
+As the designer in the project, I wanted to make something that reflected the large vistas and inspiring views the organisation monitors over. As a result each page has a banner of the British Landscape.
+
+
+(link: # text: Pending Go Live)
 
 ----
 
 Work: <div class="col-md-12" id="designs">
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/_100-bhhpa-homepage5-1.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/100-bhhpa-homepage5-4.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/100-bhhpa-homepage5-3.jpg"/>
+
 					</div>
+
 				</div>
+
 			</div>

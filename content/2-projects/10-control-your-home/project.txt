@@ -2,11 +2,11 @@ Title: Control Your Home
 
 ----
 
-Disciplines: Design & Frontend
+Disciplines: Design & Front-end
 
 ----
 
-Logo: /content/2-projects/control-your-home/tachma-logo.png
+Logo: /content/2-projects/10-control-your-home/tachma-logo.png
 
 ----
 
@@ -37,12 +37,21 @@ As the designer in the project I decided to take an infographic approach to the 
 ----
 
 Work: <div class="col-md-12" id="designs">
+
 				<div class="row">
+
 					<div class="col-md-6">
+
 						<img class="lazy" data-echo="/assets/img/work/100-tachma-homepage-dropdown-2.jpg"/>
+
 					</div>
+
 					<div class="col-md-6">
+
 						<img class="lazy" data-echo="/assets/img/work/100-tachma-findaninstaller.jpg"/>
+
 					</div>
+
 				</div>
+
 			</div>

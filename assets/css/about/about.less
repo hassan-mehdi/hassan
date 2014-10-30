@@ -102,11 +102,6 @@ h1, h2, h3, h4, h5, h6, p, a{
 			border-bottom: 1px solid @borderblue;
 			text-align: center;
 
-			.row{
-				opacity: 0;
-				.animate;
-			}
-
 			h3{
 				color: @textcolor3;
 				margin-bottom: 30px;
@@ -301,7 +296,7 @@ h1, h2, h3, h4, h5, h6, p, a{
   left: 0;
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 991px){
 	.about-menu{
 		display: none;
 	}
@@ -351,13 +346,14 @@ h1, h2, h3, h4, h5, h6, p, a{
 
 					#responsive-screens{
 						top: 0;
-						width: 100%;
 						height: 400px;
+						left: 0;
+						width: auto;
 					}
 
 					#responsive-shape{
 						top: 15px;
-						left: -100px;
+						left: 0;
 						width: 100%;
 					}
 				}
@@ -390,5 +386,22 @@ h1, h2, h3, h4, h5, h6, p, a{
 				}
 			}
 		}
+	}
+}
+
+@media all and (max-width: 560px){
+	.container-fluid section#philosophy .col-md-6.left {
+		#responsive-shape{
+			left: -120px;
+		}
+
+		#responsive-screens{
+			width: 95%;
+		}
+	}
+
+	.container-fluid section#cv-download{
+		padding: 100px 20px 50px;
+		margin-bottom: 50px;
 	}
 }

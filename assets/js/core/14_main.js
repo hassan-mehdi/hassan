@@ -26,13 +26,6 @@
 	    		setTimeout(function(){window.location = href}, 1500);
 	    		return false;
 	    	});
-
-	    	$('.voidFade.downloadLink').on('click', function(){
-	    		var href = $(this).attr('href');
-
-	    		setTimeout(function(){window.location = href}, 2500);
-	    		return false;
-	    	});
 	    }
 
 

@@ -6,7 +6,7 @@ Disciplines: design
 
 ----
 
-Logo: /content/2-projects/6c/6c-logo.png
+Logo: /content/2-projects/11-6c/6c-logo.png
 
 ----
 
@@ -30,27 +30,46 @@ Ownership2: 600
 
 ----
 
-Text: 6C was a concept design for a online library system where by users, in this case public sector, can login an access documents and media. the system could also show version history of a document as well as side by side comparison of documents. With the implementation of elastic search users could also search directly inside of documents when preforming keyword or faceted searches.
+Text: 6C was a concept design for a online library system where by users, in this case public sector, can login an access documents and media. The system could also show version history of a document as well as side by side comparison of documents. With the implementation of elastic search users could also search directly inside of documents when preforming keyword search or faceted searches.
 
 ----
 
 Work: <div class="col-md-12" id="designs">
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/109-6c-homepage.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/114-6c-members-homepage.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-6">
+
 						<img class="lazy" data-echo="/assets/img/work/110-6c-knowledge.jpg"/>
+
 					</div>
+
 					<div class="col-md-6">
+
 						<img class="lazy" data-echo="/assets/img/work/113-6c-knowledge-detail-options.jpg"/>
+
 					</div>
+
 				</div>
+
 			</div>

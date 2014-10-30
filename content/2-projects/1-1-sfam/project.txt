@@ -2,43 +2,76 @@ Title: SFAM
 
 ----
 
-Text: The Society for Applied Microbiology is one of the UK leading Microbiological associations, with nearly 2000 members with a broad age range. This site is designed to be forward looking, modern and authoritative whilst still intuitive and accessible in context of age and device. 
+Text: The Society for Applied Microbiology is one of the UK's leading microbiological associations, with nearly 2000 members with a broad age range. This site is designed to be forward looking, modern and authoritative whilst still intuitive and accessible in context of age and device. 
+
+
 
 In this project I was the designer and I also developed the entire front-end. This site is currently in staging pending go live, links are available on request.
 
+
+
+(link: # text: Pending Go Live, link available on request)
+
 ----
 
-Disciplines: design & frontend
+Disciplines: design & front-end
 
 ----
 
 Work: <div class="col-md-12" id="designs">
+
             <div class="row">
+
               <div class="col-md-12">
+
                 <img class="lazy" data-echo="/assets/img/work/100a-SFAM-Homepage.jpg"/>
+
               </div>
+
             </div>
+
             <div class="row">
+
               <div class="col-md-4">
+
                 <img class="lazy" data-echo="/assets/img/work/100a-SFAM-News-section-page.jpg"/>
+
               </div>
+
               <div class="col-md-8">
+
                 <img class="lazy" data-echo="/assets/img/work/103-SFAM-Standard.jpg"/>
+
               </div>
+
             </div>
+
             <div class="row">
+
               <div class="col-md-12">
+
                 <img class="lazy" data-echo="/assets/img/work/101-SFAM-News.jpg"/>
+
               </div>
+
             </div>
+
             <div class="row">
+
               <div class="col-md-6">
+
                 <img class="lazy" data-echo="/assets/img/work/103-SFAM-Standard-grid.jpg"/>
+
               </div>
+
               <div class="col-md-6">
+
                 <img class="lazy" data-echo="/assets/img/work/100b-SFAM-Homepage.jpg"/>
+
               </div>
+
             </div>
+
           </div>
 
 ----

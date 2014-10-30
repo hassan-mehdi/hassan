@@ -6,7 +6,7 @@
 				<div class="about-menu">
 					<ul>
 						<li><a class="about-menu-link up voidFade" href="#main">Back to top</a></li>
-						<li><a class="about-menu-link up voidFade active" href="#experience">What I do</a></li>
+						<li><a class="about-menu-link up voidFade" href="#experience">What I do</a></li>
 						<li><a class="about-menu-link up voidFade" href="#philosophy">Philosophy</a></li>
 						<li><a class="about-menu-link up voidFade" href="#skills">Skill sets</a></li>
 						<li><a class="about-menu-link up voidFade" href="#cv-download">My CV</a></li>
@@ -16,11 +16,11 @@
 					<section data-stellar-ratio="1" id="about">
 						<div class="fade fadeIn">
 							<h1 class="up">HI, I'M HASSAN</h1>
-							<h2 class="up lite">I AM A WEB DESIGNER AND FRONTEND DEVELOPER</h2>
+							<h2 class="up lite">I AM A WEB DESIGNER AND FRONT-END DEVELOPER</h2>
 						</div>
 						<img src="<?php echo $site->secure() ?>/assets/img/me.jpg" alt="picture of me">
 					</section>
-					<section class="waypoint" data-stellar-ratio="2" id="experience">
+					<section class="waypoint" data-stellar-ratio="1.5" id="experience">
 						<div class="row">
 							<div class="col-md-12">
 								<h2 class="up">I am a designer who has a passion for code</h2>
@@ -170,12 +170,12 @@
 					</div>
 					<div class="col-md-6 right">
 						<h1 class="up">I try to build rich, consistent AND CREATIVE ui experiences</h1>
-						<h4 class="lite">The way a site or application behaves and interacts should represent the clients brand, animation, typography, colour, composition and much much more. I prefer to restyle native behaviours to be consistent with the clients brand, to maintain<br>a solid aesthetic dialogue.</h4>
+						<h4 class="lite">The way a site or application behaves and interacts should represent the clients brand, anything from animation, typography, colour, composition and much much more. I believe native behaviours should be restyled to be consistent with the clients brand and to maintain a solid aesthetic dialogue.</h4>
 					</div>
 				</section>
 				<section class="waypoint" id="skills">
 					<h2 class="up">Versatility</h2>
-					<img src="<?php echo $site->url() ?>/assets/img/about-arrow.png">
+					<img src="<?php echo $site->secure() ?>/assets/img/about-arrow.png">
 					<h3 class="up lite">Being a coder and a designer I have the advantage of being able to discuss leading and kerning with designers and then have a chat about mixins and functions with devs</h3>
 				</section>
 				<section class="list">
@@ -214,7 +214,7 @@
 					<div class="row">
 						<div class="col-md-12 centered">
 							<h1 class="up lite">If you are interested in hiring me take a copy of my CV</h1>
-							<a class="voidFade downloadLink download-btn-link" href="assets/docs/sara-cv-2014.pdf">
+							<a class="voidFade downloadLink download-btn-link" target="_blank" href="/assets/docs/HASSAN-CV.pdf">
 								<span class="up download-btn-text">Download my CV</span>
 								<svg width="175" height="175" id="download-btn"></svg>
 							</a>

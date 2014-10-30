@@ -2,3 +2,6 @@
 .no-cssanimations #bgvideo {
   opacity: 1!important;
 }
+.gradient {
+  filter: none;
+}

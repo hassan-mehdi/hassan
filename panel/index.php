@@ -22,7 +22,7 @@ if(file_exists($index . DS . 'site.php')) {
 
 // fix the base url for the kirby installation
 if(!isset($kirby->urls->index)) {
-  $kirby->urls->index = dirname($kirby->url());
+  $kirby->urls->index = dirname($kirby->secure());
 }
 
 // the default index directory

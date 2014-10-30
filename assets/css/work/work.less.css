@@ -1,28 +1,3 @@
-body {
-  -webkit-animation: bodychange 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
-  -moz-animation: bodychange 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
-  -o-animation: bodychange 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
-  animation: bodychange 1s cubic-bezier(0.895, 0.03, 0.685, 0.22);
-  /* easeInOutQuart */
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
-}
-@keyframes bodychange {
-  0% {
-    background-color: #080a19;
-  }
-  100% {
-    background-color: #ffffff;
-  }
-}
-@-webkit-keyframes bodychange {
-  0% {
-    background-color: #080a19;
-  }
-  100% {
-    background-color: #ffffff;
-  }
-}
 .col-md-4 {
   border-color: #d1d1d1;
   border-width: 0 0 1px 1px;

@@ -2,11 +2,11 @@ Title: imw
 
 ----
 
-Disciplines: Design & Frontend
+Disciplines: Design & Front-end
 
 ----
 
-Logo: /content/2-projects/imw/imw-logo.png
+Logo: /content/2-projects/5-imw/imw-logo.png
 
 ----
 
@@ -30,21 +30,34 @@ Ownership2: 100
 
 ----
 
-Text: The Institute of Masters of Wine is an Internationally around wine master education/membership organisation. A highly prestigious organisation The IMW's website needed to reflect this whilst still being a functional online service.
+Text: The Institute of Masters of Wine is an internationally renowned wine master education/membership organisation. A highly prestigious organisation The IMW's website needed to reflect the prestige whilst still being a functional online service.
 
 I decided to use strong flat colours coupled with a simple san-serif and aspiration imagery to create an elegant and versatile site.
+
+(link: http://www.mastersofwine.org/ text: Visit Website)
 
 ----
 
 Work: <div class="col-md-12" id="designs">
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/100_IMW-homepage-v2.jpg"/>
+
 					</div>
+
 				</div>
+
 				<div class="row">
+
 					<div class="col-md-12">
+
 						<img class="lazy" data-echo="/assets/img/work/101_IMW-about-us.jpg"/>
+
 					</div>
+
 				</div>
+
 			</div>
